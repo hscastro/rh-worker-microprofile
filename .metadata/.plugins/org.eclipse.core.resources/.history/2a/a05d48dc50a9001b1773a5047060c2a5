@@ -1,0 +1,5 @@
+#microprofile rh-worker
+port=9081
+
+rh-worker/mp-rest/uri=http://localhost:9080/
+

@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/.metadata/.plugins/org.eclipse.jdt.core
+2596148084.index
+1164368689.index
+2036177866.index
+2697975485.index
+3567712075.index
+2448179257.index
+3298045015.index
+3714361563.index
+10299115.index
+1796924227.index

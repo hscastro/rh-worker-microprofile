@@ -1,0 +1,2 @@
+#microprofile rh-worker
+rh-worker/uri=http://localhost:9080/

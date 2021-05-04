@@ -1,0 +1,11 @@
+package com.hscastro.services;
+
+import java.util.List;
+import com.hscastro.entities.Produto;
+
+public interface ProdutoService {
+
+	Produto getProduto(String id);
+	List<Produto> getProdutos();
+
+}

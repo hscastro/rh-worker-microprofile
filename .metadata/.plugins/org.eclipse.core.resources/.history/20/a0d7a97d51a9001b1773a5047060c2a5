@@ -1,0 +1,4 @@
+#microprofile rh-worker
+
+rh-worker/mp-rest/uri=http://localhost:9080/
+

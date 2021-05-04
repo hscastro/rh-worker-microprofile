@@ -1,0 +1,40 @@
+package com.hscastro.resources;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import com.hscastro.entities.Produto;
+import com.hscastro.services.ProdutoService;
+
+@Path("produtos")
+@ApplicationScoped
+public class ProdutoResource {
+	
+	@Inject	
+	private ProdutoService service;	
+
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response getProdutos() {
+		return Response.ok(service.getProdutos()).build();
+	}
+
+	@GET
+	@Path("/{nome}")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response getProduto(@PathParam("nome") String nome) {
+		Produto prod = service.getProduto(nome);
+		return Response.ok(prod).build();
+	}	
+	
+}

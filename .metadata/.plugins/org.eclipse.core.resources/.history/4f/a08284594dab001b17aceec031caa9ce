@@ -1,0 +1,5 @@
+config_ordinal=999
+
+quantidade.elementos.pagina=320
+meu.name=Halyson
+correios/mp-rest/uri=http://192.168.40.179:9080/microprofile-demo/

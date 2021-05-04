@@ -1,0 +1,5 @@
+package com.hscastro.services;
+
+public class ProdutoService {
+
+}

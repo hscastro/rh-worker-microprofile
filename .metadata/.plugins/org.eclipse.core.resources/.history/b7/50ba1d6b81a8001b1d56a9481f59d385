@@ -1,0 +1,13 @@
+package com.hscastro.services;
+
+import java.util.List;
+
+import com.hscastro.entities.Worker;
+
+public interface WorkerService {
+
+	Worker save(Worker worker);
+	Worker findById(Long id);
+	List<Worker> findAll();
+	
+}

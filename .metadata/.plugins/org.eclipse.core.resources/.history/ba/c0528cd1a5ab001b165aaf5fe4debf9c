@@ -1,0 +1,28 @@
+package com.hscastro.converters;
+
+import javax.inject.Inject;
+
+import org.eclipse.microprofile.config.spi.Converter;
+
+import com.hscastro.entities.Worker;
+import com.hscastro.restclient.WorkerRestClient;
+
+public class ConverterWorker implements Converter<Worker> {
+
+	@Inject
+	private WorkerRestClient workerRestClient;
+	
+	@Override
+	public Worker convert(String value) {
+		
+		if(value.isEmpty()) {
+			return null;
+		}
+		
+		Long id = Long.valueOf(value);
+		Worker worker = workerRestClient.findById(id);
+		
+		return worker;
+	}
+	
+}

@@ -1,0 +1,15 @@
+#microprofile rh-worker
+#com.hscastro.resources.WorkerRestClient/mp-rest/url=http://localhost:9082/
+#com.hscastro.resources.PaymentResource/mp-rest/url=http://localhost:9082/
+#com.hscastro.restclient.WorkerRestClient/mp-rest/uri=http://localhost:9082/
+
+#workerRestClient/mp-rest/uri=http://localhost:9082/worker
+
+#myClient/mp-rest/url=
+#myClient/mp-rest/uri=
+#myClient/mp-rest/scope=
+#myClient/mp-rest/providers=
+#myClient/mp-rest/providers/com.mycompany.MyProvider/priority=
+#myClient/mp-rest/connectTimeout=
+#myClient/mp-rest/readTimeout=
+

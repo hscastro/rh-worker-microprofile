@@ -1,0 +1,21 @@
+package com.hscastro.services;
+
+import java.util.List;
+
+import com.hscastro.entities.Produto;
+
+public class ProdutoServiceImpl implements ProdutoService {
+
+	@Override
+	public Produto getProduto(String nome) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Produto> getProdutos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

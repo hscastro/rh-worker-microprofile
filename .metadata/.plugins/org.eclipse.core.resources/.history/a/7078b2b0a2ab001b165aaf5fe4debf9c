@@ -1,0 +1,17 @@
+package com.hscastro.services;
+
+import java.util.List;
+
+import javax.ws.rs.QueryParam;
+
+import com.hscastro.entities.Worker;
+
+public interface WorkerService {
+
+	void save(Worker worker);
+	Worker findById(String id);
+	Worker update(String id, Worker w);
+	List<Worker> findAll();
+	void delete(String id);
+	
+}

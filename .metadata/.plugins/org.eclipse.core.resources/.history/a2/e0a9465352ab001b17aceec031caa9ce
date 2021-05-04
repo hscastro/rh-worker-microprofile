@@ -1,0 +1,31 @@
+package com.hscastro.resources;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Map;
+
+import org.eclipse.microprofile.config.spi.ConfigSource;
+
+public class NossoConfigSource implements ConfigSource {
+	
+	Map<String, String> propriedades = Collections.singletonMap("custom.config,source", "ydemy");
+
+	@Override
+	public Map<String, String> getProperties() {
+		// TODO Auto-generated method stub
+		return propriedades;
+	}
+
+	@Override
+	public String getValue(String propertyName) {
+		// TODO Auto-generated method stub
+		return propriedades.get(propertyName);
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return "Meu config source custom";
+	}
+
+}

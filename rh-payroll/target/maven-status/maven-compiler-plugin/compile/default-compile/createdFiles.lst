@@ -1,0 +1,7 @@
+com/hscastro/services/PaymentService.class
+com/hscastro/entities/Worker.class
+com/hscastro/restclient/WorkerRestClient.class
+com/hscastro/WorkerApplication.class
+com/hscastro/converters/ConverterWorker.class
+com/hscastro/entities/Payment.class
+com/hscastro/resources/PaymentResource.class

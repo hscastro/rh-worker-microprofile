@@ -1,0 +1,44 @@
+package com.hscastro.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.enterprise.context.ApplicationScoped;
+
+import com.hscastro.entities.Produto;
+
+@ApplicationScoped
+public class ProdutoServiceImpl implements ProdutoService {
+	
+	private List<Produto> list = new ArrayList<>();
+	
+	public ProdutoServiceImpl() {	
+		Produto p1 = new Produto(null, "Computador", 3);
+		Produto p2 = new Produto(null, "Mouse", 8);
+		Produto p3 = new Produto(null, "Teclado", 7);
+		list.add(p1);
+		list.add(p2);
+		list.add(p3);		
+	}
+
+	@Override
+	public Produto getProduto(String nome) {
+		Produto entity = null;
+		String entityNome = null;
+		for (int i = 0; i < list.size(); i++) {
+			 			 
+			 if(list.contains(nome)) {
+				 entity = list.get(i);
+				 break;
+			 }
+		}
+		
+		return entity;
+	}
+
+	@Override
+	public List<Produto> getProdutos() {
+		return list;
+	}
+
+}

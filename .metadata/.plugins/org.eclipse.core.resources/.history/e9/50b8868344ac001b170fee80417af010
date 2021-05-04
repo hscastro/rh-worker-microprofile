@@ -1,0 +1,11 @@
+package com.hscastro.util;
+
+import java.io.StringWriter;
+
+public class ProdutoConverterToXML {
+	
+	public void converterXML() {
+		ObjectMapper jsonMapper = new ObjectMapper();	
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.hscastro.resources;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.ws.rs.*;
+import javax.ws.rs.core.*;
+
+@Path("/produtos")
+@Produces(MediaType.TEXT_PLAIN)
+@ApplicationScoped
+public class ProdutoResource {
+
+	@GET
+	public String getProdutos() {
+		return "Hello world!";
+	}
+	
+}

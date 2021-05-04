@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;rh-payroll/src/main/resources/META-INF/services/org.eclipse.microprofile.config.spi.ConfigSource&apos; to &apos;org.eclipse.microprofile.config.spi.Converter&apos;" description="Rename resource &apos;org.eclipse.microprofile.config.spi.ConfigSource&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/META-INF/services/org.eclipse.microprofile.config.spi.ConfigSource" name="org.eclipse.microprofile.config.spi.Converter" stamp="1620001278644" updateReferences="true"/>
+</session>

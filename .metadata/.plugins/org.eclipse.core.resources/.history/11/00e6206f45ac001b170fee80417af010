@@ -1,0 +1,38 @@
+package com.hscastro.resources;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import com.hscastro.entities.Produto;
+
+@Path("produtos")
+@ApplicationScoped
+public class ProdutoResource {
+	
+	private List<Produto> list = new ArrayList<>();
+	
+	public ProdutoResource() {
+		Produto p1 = new Produto(null, "Computador", 3);
+		Produto p2 = new Produto(null, "Mouse", 8);
+		Produto p3 = new Produto(null, "Teclado", 7);
+		list.add(p1);
+		list.add(p2);
+		list.add(p3);
+	}
+
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response getProdutos() {
+		return Response.ok(list).build();
+	}
+	
+}

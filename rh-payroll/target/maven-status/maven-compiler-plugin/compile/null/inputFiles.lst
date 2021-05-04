@@ -1,0 +1,7 @@
+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/java/com/hscastro/entities/Payment.java
+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/java/com/hscastro/entities/Worker.java
+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/java/com/hscastro/converters/ConverterWorker.java
+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/java/com/hscastro/resources/PaymentResource.java
+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/java/com/hscastro/services/PaymentService.java
+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/java/com/hscastro/WorkerApplication.java
+/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/java/com/hscastro/restclient/WorkerRestClient.java

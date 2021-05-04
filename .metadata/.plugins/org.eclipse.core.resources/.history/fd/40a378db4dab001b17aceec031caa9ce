@@ -1,0 +1,17 @@
+package com.hscastro.resources;
+
+public class Email {
+	
+	private String email;
+	
+	public static String of(String str) {
+		Email email = new Email();
+		email.email = str;
+		return email;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+
+}

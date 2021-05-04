@@ -1,0 +1,20 @@
+package com.hscastro.util;
+
+import java.io.StringWriter;
+
+public class ProdutoConverterToXML {
+	
+	public void converterXML() {
+		final String str = "{\"name\":\"JSON\",\"integer\":1,\"double\":2.0,\"boolean\":true,\"nested\":{\"id\":42},\"array\":[1,2,3]}";
+		ObjectMapper jsonMapper = new ObjectMapper();
+		JsonNode node = jsonMapper.readValue(str, JsonNode.class);
+		XmlMapper xmlMapper = new XmlMapper();
+		        xmlMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+		        xmlMapper.configure(ToXmlGenerator.Feature.WRITE_XML_DECLARATION, true);
+		        xmlMapper.configure(ToXmlGenerator.Feature.WRITE_XML_1_1, true);
+		StringWriter w = new StringWriter();
+		xmlMapper.writeValue(w, node);
+		System.out.println(w.toString());		
+	}
+
+}

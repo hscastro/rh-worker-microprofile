@@ -1,0 +1,54 @@
+------Start of DE processing------ = [29/04/2021 10:32:43:464 BRT]
+Exception = javax.servlet.ServletException
+Source = com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters
+probeid = 1064
+Stack Dump = javax.servlet.ServletException: SRVE0207E: Exceção de inicialização não capturada criada pelo servlet
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.init(ServletWrapper.java:367)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:600)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:442)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1226)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1006)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Failure parsing MediaType string: application
+	at org.apache.cxf.jaxrs.impl.MediaTypeHeaderProvider.internalValueOf(MediaTypeHeaderProvider.java:97)
+	at org.apache.cxf.jaxrs.impl.MediaTypeHeaderProvider.valueOf(MediaTypeHeaderProvider.java:71)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.toMediaType(JAXRSUtils.java:1960)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.parseMediaTypes(JAXRSUtils.java:1624)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.getMediaTypes(JAXRSUtils.java:275)
+	at org.apache.cxf.jaxrs.model.OperationResourceInfo.checkMediaTypes(OperationResourceInfo.java:237)
+	at org.apache.cxf.jaxrs.model.OperationResourceInfo.<init>(OperationResourceInfo.java:89)
+	at org.apache.cxf.jaxrs.utils.ResourceUtils.createOperationInfo(ResourceUtils.java:549)
+	at org.apache.cxf.jaxrs.utils.ResourceUtils.evaluateResourceClass(ResourceUtils.java:346)
+	at org.apache.cxf.jaxrs.utils.ResourceUtils.createClassResourceInfo(ResourceUtils.java:326)
+	at org.apache.cxf.jaxrs.utils.ResourceUtils.createClassResourceInfo(ResourceUtils.java:303)
+	at org.apache.cxf.jaxrs.utils.ResourceUtils.createClassResourceInfo(ResourceUtils.java:294)
+	at org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.createResourceInfo(JAXRSServiceFactoryBean.java:202)
+	at org.apache.cxf.jaxrs.JAXRSServiceFactoryBean.setResourceClasses(JAXRSServiceFactoryBean.java:165)
+	at org.apache.cxf.jaxrs.JAXRSServerFactoryBean.setResourceClasses(JAXRSServerFactoryBean.java:305)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.doInit(LibertyJaxRsServerFactoryBean.java:335)
+	at com.ibm.ws.jaxrs20.server.JaxRsWebEndpointImpl.init(JaxRsWebEndpointImpl.java:66)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.init(IBMRestServlet.java:64)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.init(ServletWrapper.java:298)
+	... 24 more
+
+Dump of callerThis
+null

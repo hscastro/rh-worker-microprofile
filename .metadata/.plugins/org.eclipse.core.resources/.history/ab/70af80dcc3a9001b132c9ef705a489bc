@@ -1,0 +1,9 @@
+#microprofile rh-worker
+
+rh-worker/mp-rest/uri=http://localhost:9082/
+
+server.url=http://${server.host:http://192.168.40.179}:${server.port}/${server.endpoint}
+server.port=9081
+server.endpoint=${server.endpoint.path.${server.endpoint.path.rh-payment}}
+server.endpoint.path.rh-payment=rh-payment
+

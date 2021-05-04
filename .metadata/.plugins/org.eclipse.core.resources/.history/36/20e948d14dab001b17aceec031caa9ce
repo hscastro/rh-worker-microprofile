@@ -1,0 +1,5 @@
+package com.hscastro.resources;
+
+public class Email {
+
+}

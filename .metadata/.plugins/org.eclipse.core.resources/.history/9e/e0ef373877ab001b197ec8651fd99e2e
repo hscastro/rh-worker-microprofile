@@ -1,0 +1,21 @@
+package com.hscastro.restclient;
+
+import javax.websocket.server.PathParam;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
+
+import com.hscastro.entities.Worker;
+
+@RegisterRestClient(baseUri="http://someHost/someContextRoot")
+
+@Path("payments")
+@RegisterRestClient(baseUri = "http://10.0.0.5:9082/rh-worker/workers", configKey = "workers")
+public interface WorkerRestClient {
+	
+	@GET
+	@Path(value = "{id}")	
+	Worker findById(@PathParam("id") Long id);	
+	
+}

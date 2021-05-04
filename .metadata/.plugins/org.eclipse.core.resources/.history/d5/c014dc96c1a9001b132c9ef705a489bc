@@ -1,0 +1,26 @@
+<server description="Intro REST Guide Liberty server">
+  <!-- tag::featureManager[] -->
+  <featureManager>
+   <feature>cdi-2.0</feature>
+    <feature>jaxrs-2.1</feature>
+    <feature>jsonp-1.1</feature>    
+    <feature>mpRestClient-1.4</feature>
+    <feature>mpConfig-1.4</feature>
+  </featureManager>
+
+   <applicationManager autoExpand="true" />
+
+	<mpMetrics authentication="false"/>
+	
+	<!-- <variable name="default.http.port" defaultValue="9080" />
+	<variable name="default.http.port" defaultValue="9443" />-->
+
+  <!-- tag::httpEndpoint[] -->
+ <!--  <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
+                id="defaultHttpEndpoint" host="*" />-->
+  <!-- end::httpEndpoint[] -->
+  
+  <!-- tag::webApplication[] -->
+  <webApplication location="guide-rest-intro.war" contextRoot="${app.context.root}"/>
+  <!-- end::webApplication[] -->
+</server>

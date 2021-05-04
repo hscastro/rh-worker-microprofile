@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2 02/05/2021 22:18:15:091 BRT 02/05/2021 22:18:44:237 BRT org.eclipse.microprofile.rest.client.RestClientDefinitionException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.05.02_22.18.15.0.log
+------+------+---------------------------+---------------------------+---------------------------

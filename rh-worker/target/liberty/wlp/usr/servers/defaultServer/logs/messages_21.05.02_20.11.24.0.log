@@ -1,0 +1,57 @@
+********************************************************************************
+product = Open Liberty 21.0.0.4 (wlp-1.0.51.cl210420210407-0944)
+wlp.install.dir = /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/
+java.home = /usr/lib/jvm/zulu11-ca-amd64
+java.version = 11.0.10
+java.runtime = OpenJDK Runtime Environment (11.0.10+9-LTS)
+os = Linux (5.8.0-44-generic; amd64) (pt_BR)
+process = 3899@vencedor-desktop
+********************************************************************************
+[02/05/2021 15:37:59:190 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor defaultServer foi ativado.
+[02/05/2021 15:38:00:353 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
+[02/05/2021 15:38:00:448 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/configDropins/overrides/liberty-plugin-variable-config.xml
+[02/05/2021 15:38:00:732 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 1,959 segundos
+[02/05/2021 15:38:00:773 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
+[02/05/2021 15:38:01:148 BRT] 00000016 .apache.cxf.cxf.core.3.2:1.0.51.cl210420210407-0944(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[02/05/2021 15:38:01:150 BRT] 00000017 .apache.cxf.cxf.core.3.2:1.0.51.cl210420210407-0944(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[02/05/2021 15:38:01:787 BRT] 00000017 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
+[02/05/2021 15:38:04:106 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: O aplicativo guide-rest-intro não pôde ser iniciado pois ele não poderá ser localizado no local guide-rest-intro.war.
+[02/05/2021 15:38:04:174 BRT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[02/05/2021 15:38:04:175 BRT] 00000021 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[02/05/2021 15:38:05:100 BRT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
+[02/05/2021 15:38:05:233 BRT] 00000021 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[02/05/2021 15:38:06:416 BRT] 00000021 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/05/2021 15:38:06:440 BRT] 00000021 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[02/05/2021 15:38:06:449 BRT] 00000021 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[02/05/2021 15:38:06:452 BRT] 00000021 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://10.0.0.5:9082/rh-worker/
+[02/05/2021 15:38:06:501 BRT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[02/05/2021 15:38:06:521 BRT] 00000021 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/05/2021 15:38:06:625 BRT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo rh-worker foi iniciado em 2,451 segundos.
+[02/05/2021 15:38:06:675 BRT] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/05/2021 15:38:06:683 BRT] 0000001f com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host *  (IPv6) porta 9082.
+[02/05/2021 15:38:06:715 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, jsonp-1.1, mpConfig-1.4, mpRestClient-1.4, servlet-4.0].
+[02/05/2021 15:38:06:716 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 5,981 segundos.
+[02/05/2021 15:38:06:718 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor defaultServer está pronto para gerenciar um planeta mais inteligente. O servidor defaultServer foi iniciado em 7,946 segundos.
+[02/05/2021 15:38:09:808 BRT] 00000021 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://10.0.0.5:9082/rh-worker/
+[02/05/2021 15:38:09:862 BRT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[02/05/2021 15:38:09:871 BRT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[02/05/2021 15:38:09:871 BRT] 00000021 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[02/05/2021 15:38:10:257 BRT] 00000021 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/05/2021 15:38:10:273 BRT] 00000021 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[02/05/2021 15:38:10:273 BRT] 00000021 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[02/05/2021 15:38:10:274 BRT] 00000021 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://10.0.0.5:9082/rh-worker/
+[02/05/2021 15:38:10:275 BRT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[02/05/2021 15:38:10:281 BRT] 00000021 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/05/2021 15:38:10:284 BRT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,413 segundos.
+[02/05/2021 15:38:10:587 BRT] 0000001f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/05/2021 15:38:10:775 BRT] 00000020 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/05/2021 15:38:46:059 BRT] 00000020 .apache.cxf.cxf.core.3.2:1.0.51.cl210420210407-0944(id=137)] I Setting the server's publish address to be /
+[02/05/2021 15:38:46:136 BRT] 00000020 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[02/05/2021 16:37:53:738 BRT] 00000011 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: O servidor defaultServer está parando porque a JVM está saindo.
+[02/05/2021 16:37:53:740 BRT] 00000031 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Aguardando até 30 segundos para o servidor ser colocado em modo quiesce.
+[02/05/2021 16:37:53:751 BRT] 00000022 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint interrompeu o atendimento das solicitações no host *  (IPv6) porta 9082.
+[02/05/2021 16:37:53:757 BRT] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://10.0.0.5:9082/rh-worker/
+[02/05/2021 16:37:54:090 BRT] 00000012 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Encerramento do servidor solicitado em domingo, 2 de maio de 2021 às 16:37. O servidor defaultServer está sendo encerrado.
+[02/05/2021 16:37:54:763 BRT] 00000031 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Colocação em modo quiesce do servidor concluída.
+[02/05/2021 16:37:54:834 BRT] 0000002f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[02/05/2021 16:37:55:843 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: O servidor defaultServer foi interrompido depois de 59 minutos, 57,071 segundos.

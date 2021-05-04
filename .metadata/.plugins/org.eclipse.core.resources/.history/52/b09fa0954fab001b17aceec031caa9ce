@@ -1,0 +1,7 @@
+package com.hscastro.services;
+
+import org.eclipse.microprofile.config.spi.Converter;
+
+public class EmailCostumizado implements Converter<Email> {
+
+}

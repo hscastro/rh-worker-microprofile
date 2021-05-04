@@ -1,0 +1,16 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0     10 28/04/2021 22:48:32:680 BRT 28/04/2021 22:54:14:051 BRT java.lang.NoClassDefFoundError com.ibm.ws.injectionengine.InjectionProcessorManager.getAllDeclaredFields 249
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.28_22.48.32.0.log
+     1     10 28/04/2021 22:48:32:701 BRT 28/04/2021 22:54:14:052 BRT com.ibm.wsspi.injectionengine.InjectionException com.ibm.ws.injectionengine.InjectionProcessorManager.processBindings 480
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.28_22.48.32.1.log
+     2     10 28/04/2021 22:48:32:727 BRT 28/04/2021 22:54:14:052 BRT com.ibm.wsspi.injectionengine.InjectionException com.ibm.ws.cdi.impl.weld.WebSphereCDIDeploymentImpl 671
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.28_22.48.32.2.log
+     3     10 28/04/2021 22:48:32:873 BRT 28/04/2021 22:54:14:052 BRT com.ibm.ws.cdi.CDIException com.ibm.ws.cdi.liberty.CDIRuntimeImpl 483
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.28_22.48.32.3.log
+     4     10 28/04/2021 22:48:32:968 BRT 28/04/2021 22:54:14:052 BRT com.ibm.ws.container.service.state.StateChangeException com.ibm.ws.container.service.state.internal.ApplicationStateManager 52
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.28_22.48.32.4.log
+     5     10 28/04/2021 22:48:32:998 BRT 28/04/2021 22:54:14:052 BRT com.ibm.ws.container.service.state.StateChangeException com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase 548
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.28_22.48.32.5.log
+------+------+---------------------------+---------------------------+---------------------------

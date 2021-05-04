@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/target/liberty/wlp</installDirectory>
+    <serverDirectory>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer</serverDirectory>
+    <userDirectory>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer</serverOutputDirectory>
+    <serverName>defaultServer</serverName>
+    <configDirectory>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/liberty/config</configDirectory>
+    <configFile>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/src/main/liberty/config/server.xml</configFile>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>rh-payroll.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-kernel</artifactId>
+        <version>21.0.0.4</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>/home/vencedor/.m2/repository/io/openliberty/openliberty-kernel/21.0.0.4/openliberty-kernel-21.0.0.4.zip</assemblyArchive>
+    <assemblyInstallDirectory>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/target/liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <projectCompileDependency>org.apache.commons:commons-lang3:3.10</projectCompileDependency>
+</liberty-plugin-config>

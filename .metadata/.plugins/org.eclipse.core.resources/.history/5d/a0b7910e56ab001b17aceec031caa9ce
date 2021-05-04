@@ -1,0 +1,4 @@
+#microprofile rh-worker
+com.hscastro.resources.Worker/mp-rest/uri=http://localhost:9082/
+
+
