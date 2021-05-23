@@ -1,5 +1,0 @@
-package com.hscastro.services;
-
-public interface WorkerService {
-
-}

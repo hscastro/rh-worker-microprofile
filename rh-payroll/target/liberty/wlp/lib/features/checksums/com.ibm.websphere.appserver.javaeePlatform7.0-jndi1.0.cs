@@ -1,3 +1,3 @@
-#Sun May 02 22:16:55 BRT 2021
-lib/features/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0.mf=e77fe2943d0d6d9623b4edad25944c54
-lib/com.ibm.ws.javaee.platform.v7.jndi_1.0.51.jar=66f7b2f79ad6085c50b0d409bbb31eb3
+#Sun May 23 16:10:03 BRT 2021
+lib/com.ibm.ws.javaee.platform.v7.jndi_1.0.52.jar=dd89acd9fa2b3f9e3f9d270eae2ad797
+lib/features/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0.mf=d1f83520a256fbb3fbf011160e16cb68

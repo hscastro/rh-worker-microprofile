@@ -1,3 +1,3 @@
-#Wed Apr 28 09:10:25 BRT 2021
-lib/com.ibm.ws.cdi.transaction_1.0.51.jar=717e9ce91ad0bb5b86b35ffd77724c43
-lib/features/com.ibm.websphere.appserver.cdi2.0-transaction1.2.mf=a5dfba386b6e8cc6971dd943809914a4
+#Sun May 23 16:09:06 BRT 2021
+lib/com.ibm.ws.cdi.transaction_1.0.52.jar=197b6ffc88302b02e0f9d7b34dabe41f
+lib/features/com.ibm.websphere.appserver.cdi2.0-transaction1.2.mf=0dd3ff0f55831a24efcdd2a8ae22d80b

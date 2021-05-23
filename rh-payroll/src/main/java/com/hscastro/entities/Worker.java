@@ -1,11 +1,8 @@
 package com.hscastro.entities;
 
-import java.io.Serializable;
 
+public class Worker {
 
-public class Worker implements Serializable {
-
-	private static final long serialVersionUID = 2172297189413682064L;
 	
 	private Long id;	
 	private String name;
@@ -89,4 +86,4 @@ public class Worker implements Serializable {
 		return "Produto [id=" + id + ", name=" + name + ", dayleIncome=" + dayleIncome + "]";
 	}
 	
-	}
+}

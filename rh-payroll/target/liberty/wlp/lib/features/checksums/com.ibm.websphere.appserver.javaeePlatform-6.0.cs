@@ -1,5 +1,5 @@
-#Sun May 02 22:16:52 BRT 2021
-lib/features/com.ibm.websphere.appserver.javaeePlatform-6.0.mf=758ad038242fff71ae2b50fd5f67eb5b
-lib/com.ibm.ws.javaee.version_1.0.51.jar=2e70cb8fc67ff9f70050f01940b2ce81
-lib/com.ibm.ws.app.manager.module_1.0.51.jar=c5f5db72534a846f60c18faa09d1512c
-lib/com.ibm.ws.security.java2sec_1.0.51.jar=4efc22aa12047bab2b0d84cdf5306a0f
+#Sun May 23 16:09:58 BRT 2021
+lib/features/com.ibm.websphere.appserver.javaeePlatform-6.0.mf=0f75a81deb4b689c22b820366fa0ede1
+lib/com.ibm.ws.security.java2sec_1.0.52.jar=8a5c82bb332e31cad7ce721b1d923762
+lib/com.ibm.ws.app.manager.module_1.0.52.jar=7ceca929716e83611fcb2c8878bec2d3
+lib/com.ibm.ws.javaee.version_1.0.52.jar=e0411e506529c9b3bd9db44fbe0aa780

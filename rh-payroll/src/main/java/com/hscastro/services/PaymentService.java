@@ -1,8 +1,9 @@
 package com.hscastro.services;
 
+import java.util.List;
+
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import javax.ws.rs.PathParam;
 
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
@@ -18,10 +19,18 @@ public class PaymentService {
 	private WorkerRestClient workerRestClient;
 	
 	
-	public Payment getPayment(@PathParam("workerId") long workerId, @PathParam("days") int days) {
-		
+	public Payment getPayment(Long workerId, Integer days) {
+		System.out.println("test 2-1");
+		@SuppressWarnings("unused")
 		Worker worker = workerRestClient.findById(workerId);		
-		return new Payment(worker.getName(), worker.getDayleIncome(), days);
+		System.out.println("test 2-2");
+		return new Payment("Bob", 200.00, days);
+		//return new Payment(worker.getName(), worker.getDayleIncome(), days);
 	}
 
+	public List<Worker> getPayments() {		
+		List<Worker> list = workerRestClient.findAll();		
+		return list;		
+	}	
+		
 }

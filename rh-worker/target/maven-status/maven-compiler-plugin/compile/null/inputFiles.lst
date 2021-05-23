@@ -1,5 +1,5 @@
-/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/src/main/java/com/hscastro/resources/WorkerResource.java
-/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/src/main/java/com/hscastro/services/WorkerServiceImpl.java
-/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/src/main/java/com/hscastro/WorkerApplication.java
-/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/src/main/java/com/hscastro/entities/Worker.java
-/home/vencedor/eclipse-oxygen-workspace/microprofile-example/rh-worker/src/main/java/com/hscastro/services/WorkerService.java
+/home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/src/main/java/com/hscastro/resources/WorkerResource.java
+/home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/src/main/java/com/hscastro/entities/Worker.java
+/home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/src/main/java/com/hscastro/WorkerApplication.java
+/home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/src/main/java/com/hscastro/services/WorkerService.java
+/home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/src/main/java/com/hscastro/services/WorkerServiceImpl.java

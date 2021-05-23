@@ -1,8 +1,8 @@
-#Sun May 02 22:16:51 BRT 2021
-lib/com.ibm.ws.javaee.version_1.0.51.jar=2e70cb8fc67ff9f70050f01940b2ce81
-lib/com.ibm.ws.container.service_1.0.51.jar=a510d8cdd11bf12e64236ba75dc8e705
-lib/features/com.ibm.websphere.appserver.containerServices-1.0.mf=f5fafaf5ad4d77c9a724945d8ee61923
-dev/spi/ibm/com.ibm.websphere.appserver.spi.containerServices_4.0.51.jar=bb2771992b2260beac0f0512f22107a3
-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.containerServices_4.0-javadoc.zip=7b6bd382935328c28bcf3e6de194ea30
-lib/com.ibm.ws.resource_1.0.51.jar=68aec7cdf17af3432ff7db2a7a48a35e
-lib/com.ibm.ws.serialization_1.0.51.jar=f57295535aec4f39a119594171080f1f
+#Sun May 23 16:09:57 BRT 2021
+dev/spi/ibm/com.ibm.websphere.appserver.spi.containerServices_4.0.52.jar=079f5cd719e018d23305304eccc56463
+lib/features/com.ibm.websphere.appserver.containerServices-1.0.mf=3d53e392199775f9ef6356c47d5dc517
+lib/com.ibm.ws.javaee.version_1.0.52.jar=e0411e506529c9b3bd9db44fbe0aa780
+dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.containerServices_4.0-javadoc.zip=8de4da058549b65d984a2656f09583e9
+lib/com.ibm.ws.container.service_1.0.52.jar=727dc290130eedd82c7878689e855063
+lib/com.ibm.ws.resource_1.0.52.jar=26ae970ffd266417fa989454694ae17c
+lib/com.ibm.ws.serialization_1.0.52.jar=f657ed38ccd200bd52060abdd20bf342

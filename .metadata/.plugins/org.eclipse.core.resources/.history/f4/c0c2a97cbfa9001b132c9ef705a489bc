@@ -1,2 +1,0 @@
-#microprofile rh-worker
-rh-worker/mp-rest/uri=http://192.168.40.179:9080/rh-worker/

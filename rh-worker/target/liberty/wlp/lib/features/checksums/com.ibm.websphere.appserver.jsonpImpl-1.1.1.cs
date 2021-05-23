@@ -1,4 +1,4 @@
-#Wed Apr 28 09:10:22 BRT 2021
-lib/com.ibm.ws.org.glassfish.json.1.1_1.0.51.jar=894af7d9759340a1c00377b8125c9fc7
-lib/features/com.ibm.websphere.appserver.jsonpImpl-1.1.1.mf=a5d13aa86a1d998adea60848bf149220
-dev/api/spec/com.ibm.websphere.javaee.jsonp.1.1_1.0.51.jar=ab771cbdebb754b436b924be028e7f6c
+#Sun May 23 16:09:02 BRT 2021
+lib/features/com.ibm.websphere.appserver.jsonpImpl-1.1.1.mf=d02a7f3372bc2a00d51861a70c00f20a
+dev/api/spec/com.ibm.websphere.javaee.jsonp.1.1_1.0.52.jar=3b173dcabb2bdb16d142cc9da4c8b618
+lib/com.ibm.ws.org.glassfish.json.1.1_1.0.52.jar=bdbac6817321b262e1932f7eba182249

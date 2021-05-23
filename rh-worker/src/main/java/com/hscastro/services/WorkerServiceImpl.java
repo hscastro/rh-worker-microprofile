@@ -16,8 +16,8 @@ public class WorkerServiceImpl implements WorkerService {
 //	 private EntityManager em;
 	
 	public WorkerServiceImpl() {
-		Worker w1 = new Worker(1L, "computador", 2800.00);		
-		Worker w2 = new Worker(2L, "cadeira", 320.00);
+		Worker w1 = new Worker(1L, "Bob", 2800.00);		
+		Worker w2 = new Worker(2L, "John", 320.00);
 		list.add(w1);
 		list.add(w2);
 	}
@@ -29,16 +29,25 @@ public class WorkerServiceImpl implements WorkerService {
 		novo.setId(worker.getId());
 		novo.setName(worker.getName());
 		novo.setDayleIncome(worker.getDayleIncome());
-		list.add(novo);		
+		
+		if(list.isEmpty()) {
+			list.add(novo);	
+			
+		}else {
+			int index = list.size();
+			list.add(index, novo);
+		}		
+			
 	}
 
 	@Override
 	public Worker findById(Long id) {
 		Worker entity = null;
+		Long entityID = 0L;
 		
 		for (int i = 0; i < list.size(); i++) {
 			 entity = list.get(i);
-			 Long entityID = entity.getId();
+			 entityID = entity.getId().longValue();
 			 
 			 if(entityID.equals(id)) {
 				 return entity;

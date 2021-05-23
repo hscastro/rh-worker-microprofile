@@ -1,6 +1,6 @@
-#Sun May 02 22:16:53 BRT 2021
-dev/api/ibm/com.ibm.websphere.appserver.api.endpoint_1.0.51.jar=5ac6e02aaa89e9b4af7ad43c04d19315
-lib/features/com.ibm.websphere.appserver.channelfw-1.0.mf=f76878474a3516bde0cf1bb9423c59fd
-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.endpoint_1.0-javadoc.zip=b13dccb9d6081585eb905b1ea86b78be
-lib/com.ibm.ws.timer_1.0.51.jar=8057b164593e26abbb40d0022be4a7ea
-lib/com.ibm.ws.channelfw_1.0.51.jar=c88f3967eceb55d784df68d36ef5ea2b
+#Sun May 23 16:09:59 BRT 2021
+lib/features/com.ibm.websphere.appserver.channelfw-1.0.mf=11fe99c72db060484b16c487b8f87052
+dev/api/ibm/com.ibm.websphere.appserver.api.endpoint_1.0.52.jar=f570079a800b3377d787837299941e1b
+lib/com.ibm.ws.timer_1.0.52.jar=62c4c22eb59e9f636eec2af89cb946a1
+dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.endpoint_1.0-javadoc.zip=e16dcc3b24ee212e0f2e73d8fc97f16e
+lib/com.ibm.ws.channelfw_1.0.52.jar=f2a9b1fc22091ee29f876a1a828b4391

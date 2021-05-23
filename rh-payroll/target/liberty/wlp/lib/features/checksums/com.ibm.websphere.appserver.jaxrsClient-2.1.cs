@@ -1,3 +1,3 @@
-#Sun May 02 22:16:54 BRT 2021
-lib/com.ibm.ws.jaxrs.2.0.client_1.0.51.jar=95818b54712f9644c78c56af23abc00a
-lib/features/com.ibm.websphere.appserver.jaxrsClient-2.1.mf=65382fec6e65040d27e28eda8f65dfb2
+#Sun May 23 16:10:02 BRT 2021
+lib/com.ibm.ws.jaxrs.2.0.client_1.0.52.jar=623edd8d0f5a8166779ccbf67612b20d
+lib/features/com.ibm.websphere.appserver.jaxrsClient-2.1.mf=f06e45acffb5c69a4b20be718fe32c3f

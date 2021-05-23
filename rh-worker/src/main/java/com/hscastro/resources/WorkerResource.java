@@ -39,7 +39,7 @@ public class WorkerResource {
 	@Path("{id}")		
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response getWorker(@PathParam("id") Long id) {
+	public Response findById(@PathParam("id") Long id) {
 		Worker worker = serviceWorker.findById(id);
 		
 		return Response.ok().entity(worker).build();

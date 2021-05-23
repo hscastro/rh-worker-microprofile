@@ -1,3 +1,3 @@
-#Wed Apr 28 09:10:21 BRT 2021
-dev/api/spec/com.ibm.websphere.javaee.ejb.3.2_1.0.51.jar=9a2db7c47beb5b4f85ccf79efe691f70
-lib/features/com.ibm.websphere.appserver.javax.ejb-3.2.mf=db13e81b9ba702a69efd94239738551c
+#Sun May 23 16:09:01 BRT 2021
+dev/api/spec/com.ibm.websphere.javaee.ejb.3.2_1.0.52.jar=5206983c591e884f861f4868c0d56f65
+lib/features/com.ibm.websphere.appserver.javax.ejb-3.2.mf=06d01814af8a18180967953612ed9075

@@ -14,8 +14,7 @@ public class Payment implements Serializable {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Payment(String name, Double dailyIncome, Integer days) {
-		super();
+	public Payment(String name, Double dailyIncome, Integer days) {		
 		this.name = name;
 		this.dailyIncome = dailyIncome;
 		this.days = days;

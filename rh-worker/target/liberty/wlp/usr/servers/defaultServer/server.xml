@@ -12,8 +12,8 @@
 
 	<mpMetrics authentication="false"/>
 	
-	<variable name="default.http.port" defaultValue="9082" />
-	<variable name="default.http.port" defaultValue="9443" />
+	<variable name="default.http.port" defaultValue="9085" />
+    
 
   <!-- tag::httpEndpoint[] -->
   <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"

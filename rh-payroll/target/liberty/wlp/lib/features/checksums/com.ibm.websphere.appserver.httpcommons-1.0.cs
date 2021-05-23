@@ -1,5 +1,5 @@
-#Sun May 02 22:16:53 BRT 2021
-lib/com.ibm.ws.org.apache.httpcomponents_1.0.51.jar=a100c67ec0cd3d55018d758629acdbd0
-lib/com.ibm.ws.org.apache.commons.codec_1.0.51.jar=2d90e75d3062447b8899d0c817172ec6
-lib/features/com.ibm.websphere.appserver.httpcommons-1.0.mf=a82fb94a96cefe3ec6f0d16f9455fb3b
-lib/com.ibm.ws.org.apache.commons.logging.1.0.3_1.0.51.jar=b506e45b6c7bfe4fbdd73166b92e129e
+#Sun May 23 16:10:00 BRT 2021
+lib/io.openliberty.org.apache.commons.codec_1.15.52.jar=58f826580ab06c273d95c1d4ab051a3e
+lib/features/com.ibm.websphere.appserver.httpcommons-1.0.mf=b874fe2dfa985bd749adda18761a5941
+lib/com.ibm.ws.org.apache.httpcomponents_1.0.52.jar=b7edd166b9238385117fd2b310c9c5c1
+lib/io.openliberty.org.apache.commons.logging_1.2.52.jar=70aa5145f1ec263ec3853cc9e14c57f9

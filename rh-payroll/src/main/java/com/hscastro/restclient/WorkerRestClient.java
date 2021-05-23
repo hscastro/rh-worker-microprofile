@@ -1,5 +1,7 @@
 package com.hscastro.restclient;
 
+import java.util.List;
+
 import javax.websocket.server.PathParam;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -10,13 +12,15 @@ import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
 import com.hscastro.entities.Worker;
 
-@Path("payments")
+@Path("workers")
 @Produces(MediaType.APPLICATION_JSON)
 @RegisterRestClient
 public interface WorkerRestClient {
 	
-	@GET
-	@Path("/{id}")	
+	@GET				
 	Worker findById(@PathParam("id") Long id);	
+	
+	@GET				
+	List<Worker> findAll();
 	
 }

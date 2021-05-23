@@ -1,6 +1,6 @@
-#Wed Apr 28 09:10:24 BRT 2021
-lib/com.ibm.ws.org.apache.aries.jndi.api_1.1.51.jar=9e6c46229401a8af802d9ef20369f76b
-lib/com.ibm.ws.jndi_1.0.51.jar=9a67400150f2dd896ddc1ccca763909b
-lib/features/com.ibm.websphere.appserver.jndi-1.0.mf=9a5d529bd394ef5b678de7be5f4da9da
-lib/com.ibm.ws.jndi.url.contexts_1.0.51.jar=66f3ed840672c4ddca874906d0e8277a
-lib/com.ibm.ws.org.apache.aries.jndi.core_1.1.51.jar=77ea2054b7ab16e2234c996d7ca679f9
+#Sun May 23 16:09:05 BRT 2021
+lib/com.ibm.ws.jndi_1.0.52.jar=ec8ad6112c18de3c2d676b545cffc855
+lib/com.ibm.ws.org.apache.aries.jndi.api_1.1.52.jar=f7327844a96bb62a7ff0dd2d3e192942
+lib/features/com.ibm.websphere.appserver.jndi-1.0.mf=aa13074eb5145ff0a811816d6f7577a2
+lib/com.ibm.ws.jndi.url.contexts_1.0.52.jar=e956bd9d583dc842a53d2774d0c06e39
+lib/com.ibm.ws.org.apache.aries.jndi.core_1.1.52.jar=31e7d7b40463240547b1b8c8d0b66a8d
