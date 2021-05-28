@@ -16,7 +16,7 @@ import com.hscastro.services.WorkerService;
 public class WorkerResource {
 
 	@Inject
-	WorkerService serviceWorker;
+	private WorkerService serviceWorker;
 	
 	private List<Worker> list = null;	
 
@@ -38,22 +38,11 @@ public class WorkerResource {
 	@GET	
 	@Path("{id}")		
 	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Response findById(@PathParam("id") Long id) {
-		Worker worker = serviceWorker.findById(id);
-		
-		return Response.ok().entity(worker).build();
+	public Worker findById(@PathParam("id") Long id) {
+		Worker worker = serviceWorker.findById(id);		
+		return worker;
 	}	
 
-	@GET	
-	@Path("/{nome}")		
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Response getWorkerName(@QueryParam("nome") String nome) {
-		Worker worker = serviceWorker.findByName(nome);
-		
-		return Response.ok().entity(worker).build();
-	}	
 	
 	@PUT
     @Path("{id}")

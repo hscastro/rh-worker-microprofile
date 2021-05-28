@@ -23,5 +23,6 @@
     <refresh>false</refresh>
     <installAppsConfigDropins>/home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
+    <projectCompileDependency>com.fasterxml.jackson.core:jackson-core:2.12.3</projectCompileDependency>
     <projectCompileDependency>org.apache.commons:commons-lang3:3.10</projectCompileDependency>
 </liberty-plugin-config>

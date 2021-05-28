@@ -2,6 +2,7 @@
 <archive>
     <dir sourceOnDisk="/home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/src/main/webapp" targetInArchive="/"/>
     <dir sourceOnDisk="/home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/home/halyson/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar" targetInArchive="/WEB-INF/lib/jackson-core-2.12.3.jar"/>
     <file sourceOnDisk="/home/halyson/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar" targetInArchive="/WEB-INF/lib/commons-lang3-3.10.jar"/>
     <file sourceOnDisk="/home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
 </archive>

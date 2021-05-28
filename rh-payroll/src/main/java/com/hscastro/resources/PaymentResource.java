@@ -15,8 +15,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.hscastro.entities.Payment;
-import com.hscastro.entities.Worker;
+import com.hscastro.model.Payment;
+import com.hscastro.model.Worker;
 import com.hscastro.services.PaymentService;
 
 //import com.hscastro.entities.Worker;
@@ -24,7 +24,7 @@ import com.hscastro.services.PaymentService;
 
 
 @RequestScoped
-@Path("payments")
+@Path("/payments")
 public class PaymentResource {
 	
 	@Inject
@@ -42,7 +42,15 @@ public class PaymentResource {
 		return Response.ok(payment).build();		
 	}
 	
-
+	
+	@GET	
+	@Path("{id}")		
+	@Produces(MediaType.APPLICATION_JSON)
+	public Worker findById(@PathParam("id") Long id) {
+		Worker worker = paymentService.getWorker(id);		
+		return worker;
+	}	
+	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)

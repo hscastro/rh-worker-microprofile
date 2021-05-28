@@ -5,99 +5,913 @@ java.home = /usr/lib/jvm/zulu-11-amd64
 java.version = 11.0.8
 java.runtime = OpenJDK Runtime Environment (11.0.8+10-LTS)
 os = Linux (5.8.0-53-generic; amd64) (pt_BR)
-process = 14181@halyson-NH4CU03
+process = 14328@halyson-NH4CU03
 ********************************************************************************
-[23/05/2021 16:59:07:134 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor defaultServer foi ativado.
-[23/05/2021 16:59:08:903 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
-[23/05/2021 16:59:09:037 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/configDropins/overrides/liberty-plugin-variable-config.xml
-[23/05/2021 16:59:09:600 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 3,305 segundos
-[23/05/2021 16:59:09:655 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
-[23/05/2021 16:59:10:097 BRT] 00000019 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
-[23/05/2021 16:59:10:101 BRT] 0000001a .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
-[23/05/2021 16:59:10:505 BRT] 0000001a com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
-[23/05/2021 16:59:13:567 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: O aplicativo guide-rest-intro não pôde ser iniciado pois ele não poderá ser localizado no local guide-rest-intro.war.
-[23/05/2021 16:59:13:665 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
-[23/05/2021 16:59:13:668 BRT] 00000027 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
-[23/05/2021 16:59:15:008 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
-[23/05/2021 16:59:15:269 BRT] 00000027 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
-[23/05/2021 16:59:17:575 BRT] 00000027 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[23/05/2021 16:59:17:607 BRT] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
-[23/05/2021 16:59:17:624 BRT] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
-[23/05/2021 16:59:17:626 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 16:59:17:717 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
-[23/05/2021 16:59:17:747 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[23/05/2021 16:59:17:767 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 16:59:17:868 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo rh-worker foi iniciado em 4,204 segundos.
-[23/05/2021 16:59:17:919 BRT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host *  (IPv6) porta 9085.
-[23/05/2021 16:59:17:957 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, jsonp-1.1, mpConfig-1.4, mpRestClient-1.4, servlet-4.0].
-[23/05/2021 16:59:17:958 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 8,363 segundos.
-[23/05/2021 16:59:17:959 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor defaultServer está pronto para gerenciar um planeta mais inteligente. O servidor defaultServer foi iniciado em 11,688 segundos.
-[23/05/2021 16:59:23:447 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 16:59:23:613 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
-[23/05/2021 16:59:23:653 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
-[23/05/2021 16:59:23:654 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
-[23/05/2021 16:59:24:460 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[23/05/2021 16:59:24:504 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
-[23/05/2021 16:59:24:505 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
-[23/05/2021 16:59:24:506 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 16:59:24:516 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
-[23/05/2021 16:59:24:517 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[23/05/2021 16:59:24:523 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,870 segundos.
-[23/05/2021 16:59:24:872 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 16:59:24:993 BRT] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 17:00:18:143 BRT] 00000023 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[23/05/2021 17:00:18:389 BRT] 00000023 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[23/05/2021 17:01:37:624 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 17:01:37:630 BRT] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
-[23/05/2021 17:01:37:647 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
-[23/05/2021 17:01:37:657 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
-[23/05/2021 17:01:37:657 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
-[23/05/2021 17:01:37:855 BRT] 00000023 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 17:01:38:487 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[23/05/2021 17:01:38:533 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
-[23/05/2021 17:01:38:534 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
-[23/05/2021 17:01:38:534 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 17:01:38:538 BRT] 00000022 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
-[23/05/2021 17:01:38:539 BRT] 00000022 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[23/05/2021 17:01:38:546 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,888 segundos.
-[23/05/2021 17:01:39:070 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 17:01:42:463 BRT] 00000024 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[23/05/2021 17:01:42:485 BRT] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[23/05/2021 17:44:47:078 BRT] 0000003d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 17:44:47:085 BRT] 0000003d com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
-[23/05/2021 17:44:47:138 BRT] 0000003d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
-[23/05/2021 17:44:47:158 BRT] 0000003d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
-[23/05/2021 17:44:47:162 BRT] 0000003d bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
-[23/05/2021 17:44:47:291 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 17:44:47:582 BRT] 0000003d m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[23/05/2021 17:44:47:604 BRT] 0000003d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
-[23/05/2021 17:44:47:608 BRT] 0000003d com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
-[23/05/2021 17:44:47:608 BRT] 0000003d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 17:44:47:614 BRT] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
-[23/05/2021 17:44:47:615 BRT] 00000026 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[23/05/2021 17:44:47:621 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,462 segundos.
-[23/05/2021 17:44:47:715 BRT] 0000003d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 17:44:48:136 BRT] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 17:44:48:148 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
-[23/05/2021 17:44:48:154 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
-[23/05/2021 17:44:48:155 BRT] 00000028 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
-[23/05/2021 17:44:48:260 BRT] 0000003d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 17:44:48:443 BRT] 00000028 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[23/05/2021 17:44:48:453 BRT] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
-[23/05/2021 17:44:48:453 BRT] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
-[23/05/2021 17:44:48:453 BRT] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 17:44:48:461 BRT] 0000003d com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
-[23/05/2021 17:44:48:462 BRT] 0000003d com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[23/05/2021 17:44:48:467 BRT] 0000003d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,312 segundos.
-[23/05/2021 17:44:48:561 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[23/05/2021 17:52:16:806 BRT] 00000027 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[23/05/2021 17:52:16:825 BRT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[23/05/2021 18:13:34:396 BRT] 00000026 org.apache.cxf.jaxrs.utils.InjectionUtils                    E Class java.lang.Long can not be instantiated using a constructor with a single String argument
-[23/05/2021 18:40:44:013 BRT] 00000012 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: O servidor defaultServer está parando porque a JVM está saindo.
-[23/05/2021 18:40:44:031 BRT] 0000004b com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Aguardando até 30 segundos para o servidor ser colocado em modo quiesce.
-[23/05/2021 18:40:44:068 BRT] 00000047 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint interrompeu o atendimento das solicitações no host *  (IPv6) porta 9085.
-[23/05/2021 18:40:44:079 BRT] 00000047 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
-[23/05/2021 18:40:44:092 BRT] 0000004b com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Colocação em modo quiesce do servidor concluída.
-[23/05/2021 18:40:44:157 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
-[23/05/2021 18:40:44:659 BRT] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Encerramento do servidor solicitado em domingo, 23 de maio de 2021 às 18:40. O servidor defaultServer está sendo encerrado.
-[23/05/2021 18:40:45:849 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: O servidor defaultServer foi interrompido depois de 1 horas, 41 minutos, 39,577 segundos.
+[27/05/2021 21:54:05:837 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor defaultServer foi ativado.
+[27/05/2021 21:54:08:024 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
+[27/05/2021 21:54:08:303 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/configDropins/overrides/liberty-plugin-variable-config.xml
+[27/05/2021 21:54:09:012 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 4,468 segundos
+[27/05/2021 21:54:09:056 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
+[27/05/2021 21:54:09:749 BRT] 0000001a .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[27/05/2021 21:54:09:762 BRT] 00000019 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[27/05/2021 21:54:10:377 BRT] 0000001a com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
+[27/05/2021 21:54:13:963 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: O aplicativo guide-rest-intro não pôde ser iniciado pois ele não poderá ser localizado no local guide-rest-intro.war.
+[27/05/2021 21:54:14:127 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 21:54:14:131 BRT] 00000025 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 21:54:16:138 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
+[27/05/2021 21:54:16:342 BRT] 00000025 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[27/05/2021 21:54:19:655 BRT] 00000025 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 21:54:19:727 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 21:54:19:762 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 21:54:19:765 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:54:19:889 BRT] 00000023 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 21:54:19:969 BRT] 00000023 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 21:54:20:023 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:54:20:248 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo rh-worker foi iniciado em 6,120 segundos.
+[27/05/2021 21:54:20:327 BRT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host *  (IPv6) porta 9085.
+[27/05/2021 21:54:20:374 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, jsonp-1.1, mpConfig-1.4, mpRestClient-1.4, servlet-4.0].
+[27/05/2021 21:54:20:379 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 11,372 segundos.
+[27/05/2021 21:54:20:380 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor defaultServer está pronto para gerenciar um planeta mais inteligente. O servidor defaultServer foi iniciado em 15,842 segundos.
+[27/05/2021 21:54:25:653 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:54:25:854 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 21:54:25:876 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 21:54:25:877 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 21:54:26:812 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 21:54:26:863 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 21:54:26:864 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 21:54:26:864 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:54:26:874 BRT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 21:54:26:876 BRT] 00000024 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 21:54:26:885 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 1,009 segundos.
+[27/05/2021 21:54:27:077 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:54:27:214 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:55:36:380 BRT] 00000027 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 21:55:36:611 BRT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 21:55:57:298 BRT] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:55:57:312 BRT] 00000028 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 21:55:57:409 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 21:55:57:428 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 21:55:57:429 BRT] 00000028 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 21:55:57:491 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:55:58:224 BRT] 00000028 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 21:55:58:259 BRT] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 21:55:58:260 BRT] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 21:55:58:261 BRT] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:55:58:278 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 21:55:58:279 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 21:55:58:291 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,863 segundos.
+[27/05/2021 21:55:58:403 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:56:04:991 BRT] 00000026 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 21:56:05:047 BRT] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 21:57:20:477 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:57:20:487 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 21:57:20:510 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 21:57:20:535 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 21:57:20:536 BRT] 00000025 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 21:57:20:695 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:57:21:087 BRT] 00000025 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 21:57:21:113 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 21:57:21:114 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 21:57:21:114 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:57:21:116 BRT] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 21:57:21:117 BRT] 00000026 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 21:57:21:123 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,588 segundos.
+[27/05/2021 21:57:21:252 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:57:27:836 BRT] 00000023 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 21:57:27:851 BRT] 00000023 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 21:58:54:343 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:58:54:350 BRT] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 21:58:54:387 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 21:58:54:397 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 21:58:54:398 BRT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 21:58:54:499 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:58:54:831 BRT] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 21:58:54:853 BRT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 21:58:54:853 BRT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 21:58:54:854 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 21:58:54:861 BRT] 0000003f com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 21:58:54:862 BRT] 0000003f com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 21:58:54:880 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,482 segundos.
+[27/05/2021 21:58:54:951 BRT] 00000040 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 21:59:04:442 BRT] 00000028 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 21:59:04:456 BRT] 00000028 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:02:26:272 BRT] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:02:26:286 BRT] 00000041 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:02:26:336 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:02:26:352 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:02:26:353 BRT] 00000041 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:02:26:546 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:02:26:802 BRT] 00000041 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:02:26:835 BRT] 00000041 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:02:26:836 BRT] 00000041 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:02:26:838 BRT] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:02:26:844 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:02:26:845 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:02:26:854 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,501 segundos.
+[27/05/2021 22:02:26:950 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:02:32:947 BRT] 00000025 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:02:32:964 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:03:20:502 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:03:20:506 BRT] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:03:20:561 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:03:20:575 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:03:20:576 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:03:20:709 BRT] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:03:21:288 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:03:21:309 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:03:21:310 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:03:21:310 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:03:21:322 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:03:21:323 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:03:21:328 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,753 segundos.
+[27/05/2021 22:03:21:432 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:03:21:617 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:03:21:631 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:03:21:639 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:03:21:639 BRT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:03:21:733 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:03:21:939 BRT] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:03:21:955 BRT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:03:21:957 BRT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:03:21:957 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:03:21:961 BRT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:03:21:961 BRT] 00000029 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:03:21:984 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,345 segundos.
+[27/05/2021 22:03:22:133 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:04:12:291 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:04:12:359 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:04:12:382 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:04:12:382 BRT] 0000003e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:04:12:521 BRT] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:04:12:881 BRT] 0000003e m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:04:12:891 BRT] 0000003e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:04:12:905 BRT] 0000003e com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:04:12:907 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:04:12:921 BRT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:04:12:922 BRT] 00000029 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:04:12:927 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,545 segundos.
+[27/05/2021 22:04:13:056 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:04:27:931 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:04:27:978 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:04:27:999 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:04:28:000 BRT] 0000003f bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:04:28:036 BRT] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:04:28:457 BRT] 0000003f m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:04:28:482 BRT] 0000003f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:04:28:483 BRT] 0000003f com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:04:28:483 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:04:28:492 BRT] 00000040 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:04:28:493 BRT] 00000040 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:04:28:524 BRT] 00000040 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,525 segundos.
+[27/05/2021 22:04:28:628 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:04:36:304 BRT] 00000041 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:04:36:317 BRT] 00000041 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:04:36:360 BRT] 00000041 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] W Application {http://resources.hscastro.com/}WorkerResource has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at com.hscastro.resources.WorkerResource.getWorkerName(WorkerResource.java:50)
+	at com.hscastro.resources.WorkerResource$Proxy$_$$_WeldClientProxy.getWorkerName(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor480.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
+	... 39 more
+
+[27/05/2021 22:04:36:372 BRT] 00000041 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] W Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@4fed0a3
+org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at com.hscastro.resources.WorkerResource.getWorkerName(WorkerResource.java:50)
+	at com.hscastro.resources.WorkerResource$Proxy$_$$_WeldClientProxy.getWorkerName(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor480.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
+	... 39 more
+
+[27/05/2021 22:04:36:382 BRT] 00000041 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] E An unexpected error occurred during error handling. No further error processing will occur.
+org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at com.hscastro.resources.WorkerResource.getWorkerName(WorkerResource.java:50)
+	at com.hscastro.resources.WorkerResource$Proxy$_$$_WeldClientProxy.getWorkerName(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor480.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
+	... 39 more
+
+[27/05/2021 22:04:36:545 BRT] 00000041 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exceção lançada pela classe de aplicativo 'org.apache.cxf.service.invoker.AbstractInvoker.createFault:167'
+org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at com.hscastro.resources.WorkerResource.getWorkerName(WorkerResource.java:50)
+	at com.hscastro.resources.WorkerResource$Proxy$_$$_WeldClientProxy.getWorkerName(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor480.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
+	... 39 more
+
+[27/05/2021 22:04:36:991 BRT] 00000041 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Um Incidente de FFDC foi criado: "org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+ com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105" em ffdc_21.05.27_22.04.36.0.log
+[27/05/2021 22:04:36:999 BRT] 00000041 com.ibm.ws.webcontainer.webapp                               E SRVE0315E: Ocorreu uma exceção: java.lang.Throwable: org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5119)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
+	... 20 more
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method findByName(String) is undefined for the type WorkerService
+
+	at com.hscastro.resources.WorkerResource.getWorkerName(WorkerResource.java:50)
+	at com.hscastro.resources.WorkerResource$Proxy$_$$_WeldClientProxy.getWorkerName(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor480.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
+	... 39 more
+
+[27/05/2021 22:06:40:385 BRT] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:06:40:390 BRT] 00000040 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:06:40:445 BRT] 00000040 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:06:40:451 BRT] 00000040 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:06:40:452 BRT] 00000040 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:06:40:561 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:06:41:024 BRT] 00000040 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:06:41:041 BRT] 00000040 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:06:41:041 BRT] 00000040 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:06:41:041 BRT] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:06:41:048 BRT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:06:41:049 BRT] 00000029 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:06:41:072 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,621 segundos.
+[27/05/2021 22:06:41:136 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:06:41:440 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:06:41:482 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:06:41:493 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:06:41:493 BRT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:06:41:578 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:06:41:730 BRT] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:06:41:740 BRT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:06:41:740 BRT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:06:41:740 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:06:41:754 BRT] 0000003f com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:06:41:754 BRT] 0000003f com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:06:41:760 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,267 segundos.
+[27/05/2021 22:06:41:837 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:06:52:448 BRT] 00000041 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:06:52:461 BRT] 00000041 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:07:03:137 BRT] 00000040 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:08:06:218 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:08:06:222 BRT] 0000003e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:08:06:239 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:08:06:268 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:08:06:268 BRT] 0000003e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:08:06:348 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:08:06:721 BRT] 0000003e m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:08:06:729 BRT] 0000003e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:08:06:730 BRT] 0000003e com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:08:06:730 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:08:06:737 BRT] 00000041 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:08:06:738 BRT] 00000041 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:08:06:742 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,474 segundos.
+[27/05/2021 22:08:06:828 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:08:12:779 BRT] 00000025 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:08:12:791 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:08:12:822 BRT] 00000025 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:08:12:824 BRT] 00000025 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:08:12:825 BRT] 00000025 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:08:48:556 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:08:48:560 BRT] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:08:48:602 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:08:48:611 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:08:48:614 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:08:48:663 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:08:48:925 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:08:48:936 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:08:48:936 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:08:48:936 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:08:48:942 BRT] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:08:48:943 BRT] 0000003e com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:08:48:949 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,338 segundos.
+[27/05/2021 22:08:49:030 BRT] 0000003f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:08:55:337 BRT] 00000028 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:08:55:355 BRT] 00000028 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:08:55:387 BRT] 00000028 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:09:37:273 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:09:37:278 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:09:37:306 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:09:37:314 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:09:37:322 BRT] 00000025 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:09:37:422 BRT] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:09:37:737 BRT] 00000025 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:09:37:771 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:09:37:771 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:09:37:772 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:09:37:786 BRT] 0000003f com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:09:37:787 BRT] 0000003f com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:09:37:792 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,478 segundos.
+[27/05/2021 22:09:37:901 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:09:44:048 BRT] 00000029 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:09:44:059 BRT] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:09:44:087 BRT] 00000029 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:09:44:088 BRT] 00000029 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:09:44:126 BRT] 00000029 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E No message body writer has been found for class com.hscastro.entities.Worker, ContentType: */*
+[27/05/2021 22:12:13:866 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:12:13:870 BRT] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:12:13:901 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:12:13:907 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:12:13:907 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:12:14:021 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:12:14:409 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:12:14:424 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:12:14:425 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:12:14:425 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:12:14:440 BRT] 0000003f com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:12:14:441 BRT] 0000003f com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:12:14:460 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,553 segundos.
+[27/05/2021 22:12:14:548 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:12:14:885 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:12:14:904 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:12:14:918 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:12:14:919 BRT] 0000003e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:12:15:010 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:12:15:120 BRT] 0000003e m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:12:15:124 BRT] 0000003e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:12:15:124 BRT] 0000003e com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:12:15:125 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:12:15:126 BRT] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:12:15:127 BRT] 0000003e com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:12:15:135 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,217 segundos.
+[27/05/2021 22:12:15:227 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:12:20:556 BRT] 00000040 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:12:20:566 BRT] 00000040 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:12:20:590 BRT] 00000040 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:12:20:591 BRT] 00000040 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:12:20:595 BRT] 00000040 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E No message body writer has been found for class com.hscastro.entities.Worker, ContentType: */*
+[27/05/2021 22:13:05:540 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:13:05:548 BRT] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:13:05:595 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:13:05:615 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:13:05:616 BRT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:13:05:691 BRT] 0000003f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:13:06:045 BRT] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:13:06:052 BRT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:13:06:053 BRT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:13:06:054 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:13:06:063 BRT] 00000041 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:13:06:064 BRT] 00000041 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:13:06:076 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,461 segundos.
+[27/05/2021 22:13:06:167 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:13:13:107 BRT] 0000003e .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:13:13:127 BRT] 0000003e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:13:13:151 BRT] 0000003e SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:13:13:154 BRT] 0000003e SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:13:13:158 BRT] 0000003e org.apache.cxf.jaxrs.utils.JAXRSUtils                        E No message body writer has been found for class com.hscastro.entities.Worker, ContentType: */*
+[27/05/2021 22:14:36:414 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:14:36:422 BRT] 0000003f com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:14:36:442 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:14:36:453 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:14:36:453 BRT] 0000003f bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:14:36:486 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:14:36:710 BRT] 0000003f m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:14:36:715 BRT] 0000003f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:14:36:716 BRT] 0000003f com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:14:36:716 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:14:36:723 BRT] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:14:36:723 BRT] 0000003e com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:14:36:728 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,275 segundos.
+[27/05/2021 22:14:36:809 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:14:41:310 BRT] 00000026 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:14:41:319 BRT] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:14:41:340 BRT] 00000026 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:14:41:343 BRT] 00000026 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:14:41:347 BRT] 00000026 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E No message body writer has been found for class com.hscastro.entities.Worker, ContentType: */*
+[27/05/2021 22:15:32:190 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:15:32:205 BRT] 0000003e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:15:32:236 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:15:32:250 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:15:32:250 BRT] 0000003e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:15:32:316 BRT] 00000040 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:15:32:660 BRT] 0000003e m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:15:32:678 BRT] 0000003e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:15:32:679 BRT] 0000003e com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:15:32:680 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:15:32:693 BRT] 00000041 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:15:32:693 BRT] 00000041 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:15:32:700 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,449 segundos.
+[27/05/2021 22:15:32:806 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:15:33:231 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:15:33:240 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:15:33:247 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:15:33:247 BRT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:15:33:384 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:15:33:563 BRT] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:15:33:569 BRT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:15:33:569 BRT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:15:33:570 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:15:33:581 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:15:33:582 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:15:33:588 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,340 segundos.
+[27/05/2021 22:15:33:663 BRT] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:15:36:315 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:15:36:365 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:15:36:375 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:15:36:375 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:15:36:454 BRT] 00000040 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:15:36:661 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:15:36:672 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:15:36:672 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:15:36:672 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:15:36:680 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:15:36:680 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:15:36:686 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,311 segundos.
+[27/05/2021 22:15:36:766 BRT] 0000003f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:15:41:770 BRT] 00000029 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:15:41:783 BRT] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:15:41:809 BRT] 00000029 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:15:41:811 BRT] 00000029 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:15:41:814 BRT] 00000029 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E No message body writer has been found for class com.hscastro.entities.Worker, ContentType: */*
+[27/05/2021 22:16:21:477 BRT] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:16:21:485 BRT] 00000041 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:16:21:522 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:16:21:554 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:16:21:555 BRT] 00000041 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:16:21:624 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:16:22:035 BRT] 00000041 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:16:22:043 BRT] 00000041 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:16:22:044 BRT] 00000041 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:16:22:044 BRT] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:16:22:052 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:16:22:052 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:16:22:059 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,505 segundos.
+[27/05/2021 22:16:22:180 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:16:23:038 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:16:23:059 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:16:23:068 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:16:23:068 BRT] 0000003f bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:16:23:191 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:16:23:401 BRT] 0000003f m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:16:23:415 BRT] 0000003f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:16:23:416 BRT] 0000003f com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:16:23:416 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:16:23:419 BRT] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:16:23:420 BRT] 0000003e com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:16:23:430 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,362 segundos.
+[27/05/2021 22:16:23:504 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:16:27:955 BRT] 00000025 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:16:27:966 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:16:27:993 BRT] 00000025 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:16:27:994 BRT] 00000025 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:27:49:626 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:27:49:638 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:27:49:678 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:27:49:687 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:27:49:693 BRT] 00000025 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:27:49:849 BRT] 0000003f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:27:50:088 BRT] 00000025 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:27:50:117 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:27:50:120 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:27:50:120 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:27:50:123 BRT] 00000040 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:27:50:123 BRT] 00000040 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:27:50:133 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,446 segundos.
+[27/05/2021 22:27:50:205 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:27:50:639 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:27:50:649 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:27:50:662 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:27:50:662 BRT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:27:50:744 BRT] 0000003f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:27:50:915 BRT] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:27:50:923 BRT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:27:50:924 BRT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:27:50:924 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:27:50:931 BRT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:27:50:932 BRT] 00000029 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:27:50:938 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,276 segundos.
+[27/05/2021 22:27:51:018 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:29:11:092 BRT] 00000041 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:29:11:102 BRT] 00000041 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:30:25:262 BRT] 0000003e SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:30:25:263 BRT] 0000003e SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:30:31:346 BRT] 00000025 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:30:43:480 BRT] 00000040 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:30:43:481 BRT] 00000040 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:30:48:360 BRT] 0000003f SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:30:48:361 BRT] 0000003f SystemOut                                                    O CAIXA ALTA 2
+[27/05/2021 22:30:59:899 BRT] 00000029 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:31:07:840 BRT] 00000041 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:31:07:840 BRT] 00000041 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:31:53:394 BRT] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:31:53:402 BRT] 00000041 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:31:53:427 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:31:53:435 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:31:53:437 BRT] 00000041 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:31:53:514 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:31:53:782 BRT] 00000041 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:31:53:789 BRT] 00000041 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:31:53:790 BRT] 00000041 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:31:53:790 BRT] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:31:53:794 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:31:53:794 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:31:53:803 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,368 segundos.
+[27/05/2021 22:31:53:882 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:32:04:551 BRT] 00000025 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:32:04:557 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:32:04:582 BRT] 00000025 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:32:14:397 BRT] 0000003e SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:32:22:248 BRT] 00000041 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:32:22:250 BRT] 00000041 SystemOut                                                    O CAIXA ALTA 2
+[27/05/2021 22:32:31:656 BRT] 0000003f SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:32:31:656 BRT] 0000003f SystemOut                                                    O CAIXA ALTA 3
+[27/05/2021 22:32:56:589 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:32:56:595 BRT] 0000003f com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:32:56:620 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:32:56:638 BRT] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:32:56:639 BRT] 0000003f bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:32:56:720 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:32:56:743 BRT] 0000003f com.ibm.ws.annocache                                         W [ TargetsTableImpl@c087555 ] ANNO_TARGETS_CORRUPT_CLASS [ com.hscastro.services.WorkerServiceImpl ] (java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 0
+	at org.objectweb.asm.ClassReader.readShort(ClassReader.java:3585)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:194)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:284)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1297)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:359)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:314)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:283)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:283)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:283)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:185)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:728)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:557)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1115)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1167)
+	at com.ibm.ws.container.service.annocache.internal.FragmentAnnotationsImpl.selectAnnotatedClasses(FragmentAnnotationsImpl.java:50)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfiguratorHelper.configureFromAnnotations(WebAppConfiguratorHelper.java:839)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurator.configure(WebAppConfigurator.java:454)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:119)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:43)
+	at com.ibm.ws.adaptable.module.internal.AdapterFactoryServiceImpl.adapt(AdapterFactoryServiceImpl.java:200)
+	at com.ibm.ws.adaptable.module.internal.AdaptableContainerImpl.adapt(AdaptableContainerImpl.java:174)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.createModuleMetaData(WebContainer.java:852)
+	at com.ibm.ws.app.manager.module.internal.ModuleHandlerBase.createModuleMetaData(ModuleHandlerBase.java:63)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase$ModuleContainerInfoBase.createModuleMetaData(SimpleDeployedAppInfoBase.java:189)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:532)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:349)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:149)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1352)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1217)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:905)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ : Index 6 out of bounds for length 0)
+[27/05/2021 22:32:56:763 BRT] 0000003f com.ibm.ws.annocache                                         W Corrupt class
+java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 0
+	at org.objectweb.asm.ClassReader.readShort(ClassReader.java:3585)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:194)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:284)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.apply(TargetsTableImpl.java:1297)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl$1.process(TargetsTableImpl.java:839)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processEntry(ClassSourceImpl_MappedContainer.java:359)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:314)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:283)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:283)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processContainer(ClassSourceImpl_MappedContainer.java:283)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl_MappedContainer.processFromScratch(ClassSourceImpl_MappedContainer.java:185)
+	at com.ibm.ws.annocache.classsource.internal.ClassSourceImpl.process(ClassSourceImpl.java:555)
+	at com.ibm.ws.annocache.targets.internal.TargetsTableImpl.scanInternal(TargetsTableImpl.java:898)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerBaseImpl.scanInternal(TargetsScannerBaseImpl.java:466)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainer(TargetsScannerOverallImpl.java:874)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers(TargetsScannerOverallImpl.java:1017)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalContainers_Select(TargetsScannerOverallImpl.java:968)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternalUnresolved(TargetsScannerOverallImpl.java:1560)
+	at com.ibm.ws.annocache.targets.internal.TargetsScannerOverallImpl.validInternal(TargetsScannerOverallImpl.java:2084)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.ensureInternalResults(AnnotationTargetsImpl_Targets.java:728)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getSeedTable(AnnotationTargetsImpl_Targets.java:557)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1115)
+	at com.ibm.ws.annocache.targets.internal.AnnotationTargetsImpl_Targets.getAnnotatedClasses(AnnotationTargetsImpl_Targets.java:1167)
+	at com.ibm.ws.container.service.annocache.internal.FragmentAnnotationsImpl.selectAnnotatedClasses(FragmentAnnotationsImpl.java:50)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfiguratorHelper.configureFromAnnotations(WebAppConfiguratorHelper.java:839)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurator.configure(WebAppConfigurator.java:454)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:119)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:43)
+	at com.ibm.ws.adaptable.module.internal.AdapterFactoryServiceImpl.adapt(AdapterFactoryServiceImpl.java:200)
+	at com.ibm.ws.adaptable.module.internal.AdaptableContainerImpl.adapt(AdaptableContainerImpl.java:174)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.createModuleMetaData(WebContainer.java:852)
+	at com.ibm.ws.app.manager.module.internal.ModuleHandlerBase.createModuleMetaData(ModuleHandlerBase.java:63)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase$ModuleContainerInfoBase.createModuleMetaData(SimpleDeployedAppInfoBase.java:189)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:532)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:508)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:349)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:149)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1352)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1217)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:905)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[27/05/2021 22:32:57:075 BRT] 0000003f m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:32:57:079 BRT] 0000003f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:32:57:079 BRT] 0000003f com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:32:57:080 BRT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:32:57:090 BRT] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:32:57:090 BRT] 0000003e com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:32:57:093 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,455 segundos.
+[27/05/2021 22:32:57:186 BRT] 0000003f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:32:57:619 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:32:57:648 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:32:57:655 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:32:57:655 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:32:57:750 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:32:57:900 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:32:57:905 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:32:57:906 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:32:57:906 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:32:57:910 BRT] 00000041 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:32:57:910 BRT] 00000041 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:32:57:915 BRT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,259 segundos.
+[27/05/2021 22:32:57:977 BRT] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:33:04:330 BRT] 00000025 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[27/05/2021 22:33:04:347 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[27/05/2021 22:33:04:367 BRT] 00000025 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:33:04:368 BRT] 00000025 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:33:12:700 BRT] 00000028 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:33:12:701 BRT] 00000028 SystemOut                                                    O CAIXA ALTA 2
+[27/05/2021 22:48:58:883 BRT] 00000029 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:48:58:885 BRT] 00000029 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:49:14:326 BRT] 0000003f SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:49:14:326 BRT] 0000003f SystemOut                                                    O CAIXA ALTA 2
+[27/05/2021 22:49:20:928 BRT] 00000028 SystemOut                                                    O CAIXA ALTA - 0
+[27/05/2021 22:49:20:929 BRT] 00000028 SystemOut                                                    O CAIXA ALTA 1
+[27/05/2021 22:50:43:838 BRT] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:50:43:862 BRT] 00000040 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-worker] [/rh-worker] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[27/05/2021 22:50:43:870 BRT] 00000040 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:50:43:876 BRT] 00000040 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-worker.
+[27/05/2021 22:50:43:876 BRT] 00000040 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-worker está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/apps/rh-worker.war.xml.
+[27/05/2021 22:50:44:041 BRT] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:50:44:213 BRT] 00000040 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[27/05/2021 22:50:44:239 BRT] 00000040 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-worker.
+[27/05/2021 22:50:44:239 BRT] 00000040 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-worker foi ligado ao default_host.
+[27/05/2021 22:50:44:240 BRT] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:50:44:244 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-worker
+[27/05/2021 22:50:44:244 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/05/2021 22:50:44:267 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-worker foi atualizado em 0,391 segundos.
+[27/05/2021 22:50:44:341 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-worker/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/05/2021 22:50:48:028 BRT] 00000012 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: O servidor defaultServer está parando porque a JVM está saindo.
+[27/05/2021 22:50:48:055 BRT] 00000091 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Aguardando até 30 segundos para o servidor ser colocado em modo quiesce.
+[27/05/2021 22:50:48:257 BRT] 00000026 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint interrompeu o atendimento das solicitações no host *  (IPv6) porta 9085.
+[27/05/2021 22:50:48:258 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9085/rh-worker/
+[27/05/2021 22:50:48:750 BRT] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Encerramento do servidor solicitado em quinta-feira, 27 de maio de 2021 às 22:50. O servidor defaultServer está sendo encerrado.
+[27/05/2021 22:50:49:267 BRT] 00000091 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Colocação em modo quiesce do servidor concluída.
+[27/05/2021 22:50:49:376 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-worker foi interrompido com sucesso.
+[27/05/2021 22:50:52:316 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: O servidor defaultServer foi interrompido depois de 56 minutos, 47,776 segundos.

@@ -18,7 +18,7 @@ public class Worker implements Serializable {
 	
 	private String name;
 	
-//	@Column(name = "dayle_income")
+
 	private Double dayleIncome;
 	
 	public Worker() {
@@ -80,9 +80,5 @@ public class Worker implements Serializable {
 		return true;
 	}
 
-	@Override
-	public String toString() {
-		return "Produto [id=" + id + ", name=" + name + ", dayleIncome=" + dayleIncome + "]";
-	}
 	
 	}

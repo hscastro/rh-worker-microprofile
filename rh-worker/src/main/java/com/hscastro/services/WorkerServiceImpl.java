@@ -41,16 +41,16 @@ public class WorkerServiceImpl implements WorkerService {
 	}
 
 	@Override
-	public Worker findById(Long id) {
-		Worker entity = null;
+	public Worker findById(Long id) {		
 		Long entityID = 0L;
+		System.out.println("CAIXA ALTA - 0");
 		
 		for (int i = 0; i < list.size(); i++) {
-			 entity = list.get(i);
-			 entityID = entity.getId().longValue();
+			Worker worker = list.get(i);
+			 entityID = worker.getId().longValue();			 		 
 			 
-			 if(entityID.equals(id)) {
-				 return entity;
+			 if(entityID.equals(id)) {				
+				 return worker;
 			 }
 		}
 		
@@ -60,8 +60,6 @@ public class WorkerServiceImpl implements WorkerService {
 	@Override
 	public List<Worker> findAll() {
 		return list;
-//		return em.createNamedQuery("Worker.findAll", Worker.class)
-//				.getResultList();
 	}
 
 	@Override
@@ -91,20 +89,5 @@ public class WorkerServiceImpl implements WorkerService {
 		return obj;
 	}
 
-	@Override
-	public Worker findByName(String nome) {
-		Worker entity = null;
-		
-		for (int i = 0; i < list.size(); i++) {
-			 entity = list.get(i);
-			 String nomeEntity = entity.getName();
-			 
-			 if(nomeEntity == (nome)) {
-				 return entity;
-			 }
-		}
-		
-		return null;
-	}
 
 }

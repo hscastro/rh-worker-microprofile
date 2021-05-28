@@ -1,4 +1,4 @@
-package com.hscastro.entities;
+package com.hscastro.model;
 
 import java.io.Serializable;
 

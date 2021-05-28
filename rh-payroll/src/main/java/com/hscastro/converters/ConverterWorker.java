@@ -6,7 +6,7 @@ import javax.inject.Inject;
 import org.eclipse.microprofile.config.spi.Converter;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
-import com.hscastro.entities.Worker;
+import com.hscastro.model.Worker;
 import com.hscastro.restclient.WorkerRestClient;
 
 @ApplicationScoped
