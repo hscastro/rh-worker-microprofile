@@ -2,7 +2,6 @@ package com.hscastro.resources;
 
 import java.util.List;
 
-//import java.util.List;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -19,8 +18,6 @@ import com.hscastro.model.Payment;
 import com.hscastro.model.Worker;
 import com.hscastro.services.PaymentService;
 
-//import com.hscastro.entities.Worker;
-//import com.hscastro.services.WorkerService;
 
 
 @RequestScoped
@@ -31,14 +28,12 @@ public class PaymentResource {
 	private PaymentService paymentService;
 
 	@GET
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
 	@Path("{workerId}/days/{days}")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)	
 	public Response getPayment(@PathParam("workerId") Long workerId, 
-			@PathParam("days") Integer days){
-		System.out.println("test 1");
-		Payment payment = paymentService.getPayment(workerId, days);
-		System.out.println("test 3");
+			@PathParam("days") Integer days){		
+		Payment payment = paymentService.getPayment(workerId, days);		
 		return Response.ok(payment).build();		
 	}
 	

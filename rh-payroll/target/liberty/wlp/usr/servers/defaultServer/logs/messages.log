@@ -5,524 +5,169 @@ java.home = /usr/lib/jvm/zulu-11-amd64
 java.version = 11.0.8
 java.runtime = OpenJDK Runtime Environment (11.0.8+10-LTS)
 os = Linux (5.8.0-53-generic; amd64) (pt_BR)
-process = 16718@halyson-NH4CU03
+process = 17849@halyson-NH4CU03
 ********************************************************************************
-[27/05/2021 22:40:14:360 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor defaultServer foi ativado.
-[27/05/2021 22:40:16:126 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
-[27/05/2021 22:40:16:228 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/configDropins/overrides/liberty-plugin-variable-config.xml
-[27/05/2021 22:40:16:808 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 3,428 segundos
-[27/05/2021 22:40:16:848 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
-[27/05/2021 22:40:17:303 BRT] 0000001a .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
-[27/05/2021 22:40:17:307 BRT] 00000017 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
-[27/05/2021 22:40:17:861 BRT] 00000018 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
-[27/05/2021 22:40:20:367 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: O aplicativo guide-rest-intro não pôde ser iniciado pois ele não poderá ser localizado no local guide-rest-intro.war.
-[27/05/2021 22:40:20:470 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:40:20:473 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:40:21:706 BRT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
-[27/05/2021 22:40:21:892 BRT] 00000029 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
-[27/05/2021 22:40:24:396 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:40:24:423 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:40:24:449 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:40:24:452 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:40:24:513 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:40:24:533 BRT] 00000027 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:40:24:538 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:40:24:630 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo rh-payroll foi iniciado em 4,160 segundos.
-[27/05/2021 22:40:24:689 BRT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host *  (IPv6) porta 9080.
-[27/05/2021 22:40:24:727 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, jsonp-1.1, mpConfig-1.4, mpRestClient-1.4, servlet-4.0].
-[27/05/2021 22:40:24:728 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 7,943 segundos.
-[27/05/2021 22:40:24:728 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor defaultServer está pronto para gerenciar um planeta mais inteligente. O servidor defaultServer foi iniciado em 11,374 segundos.
-[27/05/2021 22:40:28:838 BRT] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:40:28:979 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:40:28:992 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:40:28:992 BRT] 00000022 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:40:29:640 BRT] 00000022 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:40:29:671 BRT] 00000022 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:40:29:671 BRT] 00000022 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:40:29:672 BRT] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:40:29:684 BRT] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:40:29:686 BRT] 00000026 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:40:29:695 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,702 segundos.
-[27/05/2021 22:40:29:886 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:40:29:955 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:40:41:873 BRT] 00000027 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[27/05/2021 22:40:42:037 BRT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[27/05/2021 22:40:52:207 BRT] 00000025 org.eclipse.yasson.internal.Unmarshaller                     E Can't deserialize JSON array into: class com.hscastro.model.Worker
-[27/05/2021 22:40:52:212 BRT] 00000025 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E Problem with reading the data, class com.hscastro.model.Worker, ContentType: application/json.
-[27/05/2021 22:40:57:603 BRT] 00000029 org.eclipse.yasson.internal.Unmarshaller                     E Can't deserialize JSON array into: class com.hscastro.model.Worker
-[27/05/2021 22:40:57:604 BRT] 00000029 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E Problem with reading the data, class com.hscastro.model.Worker, ContentType: application/json.
-[27/05/2021 22:41:03:578 BRT] 00000028 org.eclipse.yasson.internal.Unmarshaller                     E Can't deserialize JSON array into: class com.hscastro.model.Worker
-[27/05/2021 22:41:03:579 BRT] 00000028 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E Problem with reading the data, class com.hscastro.model.Worker, ContentType: application/json.
-[27/05/2021 22:42:39:164 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:42:39:188 BRT] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
-[27/05/2021 22:42:39:268 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:42:39:284 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:42:39:285 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:42:39:379 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:42:39:987 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:42:40:001 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:42:40:002 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:42:40:002 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:42:40:013 BRT] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:42:40:014 BRT] 00000026 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:42:40:023 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,739 segundos.
-[27/05/2021 22:42:40:102 BRT] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:42:40:281 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:42:40:304 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:42:40:314 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:42:40:315 BRT] 00000025 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:42:40:403 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:42:40:832 BRT] 00000025 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:42:40:856 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:42:40:857 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:42:40:857 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:42:40:860 BRT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:42:40:860 BRT] 00000029 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:42:40:867 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,553 segundos.
-[27/05/2021 22:42:40:960 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:44:12:199 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:44:12:237 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:44:12:248 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:44:12:249 BRT] 00000027 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:44:12:403 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:44:12:905 BRT] 00000027 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Um Incidente de FFDC foi criado: "org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type PaymentService with qualifiers @Default
-  at injection point [BackedAnnotatedField] @Inject private com.hscastro.resources.PaymentResource.paymentService
-  at com.hscastro.resources.PaymentResource.paymentService(PaymentResource.java:0)
- com.ibm.ws.container.service.state.internal.ApplicationStateManager 54" em ffdc_21.05.27_22.44.12.0.log
-[27/05/2021 22:44:13:156 BRT] 00000027 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Um Incidente de FFDC foi criado: "com.ibm.ws.container.service.state.StateChangeException: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type PaymentService with qualifiers @Default
-  at injection point [BackedAnnotatedField] @Inject private com.hscastro.resources.PaymentResource.paymentService
-  at com.hscastro.resources.PaymentResource.paymentService(PaymentResource.java:0)
- com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase 548" em ffdc_21.05.27_22.44.12.1.log
-[27/05/2021 22:44:13:163 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0004E: Ocorreu uma exceção ao iniciar o aplicativo rh-payroll. A mensagem de exceção foi: com.ibm.ws.container.service.state.StateChangeException: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type PaymentService with qualifiers @Default
-  at injection point [BackedAnnotatedField] @Inject private com.hscastro.resources.PaymentResource.paymentService
-  at com.hscastro.resources.PaymentResource.paymentService(PaymentResource.java:0)
-
-[27/05/2021 22:44:24:241 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:44:24:241 BRT] 00000022 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:44:24:901 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0004E: Ocorreu uma exceção ao iniciar o aplicativo rh-payroll. A mensagem de exceção foi: com.ibm.ws.container.service.state.StateChangeException: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type PaymentService with qualifiers @Default
-  at injection point [BackedAnnotatedField] @Inject private com.hscastro.resources.PaymentResource.paymentService
-  at com.hscastro.resources.PaymentResource.paymentService(PaymentResource.java:0)
-
-[27/05/2021 22:44:25:244 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:44:25:245 BRT] 00000027 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:44:25:778 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0004E: Ocorreu uma exceção ao iniciar o aplicativo rh-payroll. A mensagem de exceção foi: com.ibm.ws.container.service.state.StateChangeException: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type PaymentService with qualifiers @Default
-  at injection point [BackedAnnotatedField] @Inject private com.hscastro.resources.PaymentResource.paymentService
-  at com.hscastro.resources.PaymentResource.paymentService(PaymentResource.java:0)
-
-[27/05/2021 22:44:29:727 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:44:29:728 BRT] 00000024 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:44:30:288 BRT] 00000024 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:44:30:296 BRT] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:44:30:296 BRT] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:44:30:296 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:44:30:300 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:44:30:300 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:44:30:320 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,593 segundos.
-[27/05/2021 22:44:30:432 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:44:30:750 BRT] 00000023 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:44:30:795 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:44:30:806 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:44:30:806 BRT] 00000023 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:44:30:882 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:44:31:175 BRT] 00000023 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:44:31:184 BRT] 00000023 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:44:31:184 BRT] 00000023 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:44:31:185 BRT] 00000023 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:44:31:191 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:44:31:192 BRT] 00000027 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:44:31:197 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,392 segundos.
-[27/05/2021 22:44:31:300 BRT] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:44:38:464 BRT] 00000026 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[27/05/2021 22:44:38:499 BRT] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[27/05/2021 22:44:45:452 BRT] 00000024 org.eclipse.yasson.internal.Unmarshaller                     E Can't deserialize JSON array into: class com.hscastro.model.Worker
-[27/05/2021 22:44:45:453 BRT] 00000024 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E Problem with reading the data, class com.hscastro.model.Worker, ContentType: application/json.
-[27/05/2021 22:45:18:483 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:45:18:492 BRT] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
-[27/05/2021 22:45:18:559 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:45:18:569 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:45:18:577 BRT] 00000024 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:45:18:649 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:45:19:179 BRT] 00000024 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:45:19:185 BRT] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:45:19:186 BRT] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:45:19:186 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:45:19:195 BRT] 00000022 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:45:19:195 BRT] 00000022 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:45:19:202 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,632 segundos.
-[27/05/2021 22:45:19:260 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:45:19:562 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:45:19:583 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:45:19:595 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:45:19:595 BRT] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:45:19:703 BRT] 00000023 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:45:19:950 BRT] 00000029 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:45:19:957 BRT] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:45:19:958 BRT] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:45:19:958 BRT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:45:19:963 BRT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:45:19:964 BRT] 00000028 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:45:19:968 BRT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,372 segundos.
-[27/05/2021 22:45:20:086 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:45:24:488 BRT] 00000027 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[27/05/2021 22:45:24:502 BRT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[27/05/2021 22:45:24:587 BRT] 00000027 org.eclipse.yasson.internal.Unmarshaller                     E Can't deserialize JSON array into: class com.hscastro.model.Worker
-[27/05/2021 22:45:24:588 BRT] 00000027 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E Problem with reading the data, class com.hscastro.model.Worker, ContentType: application/json.
-[27/05/2021 22:46:05:271 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:46:05:273 BRT] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
-[27/05/2021 22:46:05:336 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:46:05:345 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:46:05:347 BRT] 00000024 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:46:05:429 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:46:05:818 BRT] 00000024 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:46:05:835 BRT] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:46:05:836 BRT] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:46:05:841 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:46:05:850 BRT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:46:05:851 BRT] 00000029 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:46:05:857 BRT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,512 segundos.
-[27/05/2021 22:46:05:975 BRT] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:46:28:907 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:46:28:934 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:46:28:940 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:46:28:940 BRT] 00000027 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:46:29:030 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:46:29:299 BRT] 00000027 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:46:29:308 BRT] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:46:29:308 BRT] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:46:29:308 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:46:29:311 BRT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:46:29:312 BRT] 00000024 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:46:29:316 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,376 segundos.
-[27/05/2021 22:46:29:383 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:46:36:224 BRT] 00000028 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[27/05/2021 22:46:36:234 BRT] 00000028 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[27/05/2021 22:46:36:321 BRT] 00000028 org.eclipse.yasson.internal.Unmarshaller                     E Can't deserialize JSON array into: class com.hscastro.model.Worker
-[27/05/2021 22:46:36:321 BRT] 00000028 org.apache.cxf.jaxrs.utils.JAXRSUtils                        E Problem with reading the data, class com.hscastro.model.Worker, ContentType: application/json.
-[27/05/2021 22:47:40:215 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:47:40:217 BRT] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
-[27/05/2021 22:47:40:228 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:47:40:236 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:47:40:237 BRT] 00000025 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:47:40:323 BRT] 00000061 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:47:40:566 BRT] 00000025 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:47:40:570 BRT] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:47:40:571 BRT] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:47:40:571 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:47:40:583 BRT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:47:40:583 BRT] 00000024 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:47:40:595 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,359 segundos.
-[27/05/2021 22:47:40:679 BRT] 00000062 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:47:44:834 BRT] 00000062 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[27/05/2021 22:47:44:848 BRT] 00000062 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[27/05/2021 22:47:44:886 BRT] 00000062 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] W Application {http://resources.hscastro.com/}PaymentResource has thrown exception, unwinding now
-org.apache.cxf.interceptor.Fault: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+[02/06/2021 21:57:20:641 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor defaultServer foi ativado.
+[02/06/2021 21:57:22:247 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
+[02/06/2021 21:57:22:345 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/configDropins/overrides/liberty-plugin-variable-config.xml
+[02/06/2021 21:57:22:830 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 2,851 segundos
+[02/06/2021 21:57:22:874 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
+[02/06/2021 21:57:23:352 BRT] 00000018 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[02/06/2021 21:57:23:355 BRT] 00000019 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[02/06/2021 21:57:23:852 BRT] 0000001a com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
+[02/06/2021 21:57:26:551 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: O aplicativo guide-rest-intro não pôde ser iniciado pois ele não poderá ser localizado no local guide-rest-intro.war.
+[02/06/2021 21:57:26:692 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 21:57:26:694 BRT] 00000024 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 21:57:27:936 BRT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
+[02/06/2021 21:57:28:078 BRT] 00000024 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[02/06/2021 21:57:30:401 BRT] 00000024 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 21:57:30:430 BRT] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 21:57:30:456 BRT] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 21:57:30:459 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 21:57:30:576 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 21:57:30:611 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 21:57:30:633 BRT] 00000023 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 21:57:30:754 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo rh-payroll foi iniciado em 4,062 segundos.
+[02/06/2021 21:57:30:802 BRT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host *  (IPv6) porta 9080.
+[02/06/2021 21:57:30:833 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, jsonp-1.1, mpConfig-1.4, mpRestClient-1.4, servlet-4.0].
+[02/06/2021 21:57:30:844 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 8,016 segundos.
+[02/06/2021 21:57:30:845 BRT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor defaultServer está pronto para gerenciar um planeta mais inteligente. O servidor defaultServer foi iniciado em 10,872 segundos.
+[02/06/2021 21:57:34:451 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 21:57:34:589 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 21:57:34:606 BRT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 21:57:34:607 BRT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 21:57:35:359 BRT] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 21:57:35:381 BRT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 21:57:35:382 BRT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 21:57:35:382 BRT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 21:57:35:386 BRT] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 21:57:35:387 BRT] 00000025 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 21:57:35:393 BRT] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,786 segundos.
+[02/06/2021 21:57:35:483 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 21:57:35:585 BRT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 21:58:17:287 BRT] 00000024 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[02/06/2021 21:58:17:485 BRT] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[02/06/2021 22:03:30:692 BRT] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:30:713 BRT] 0000003b com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[02/06/2021 22:03:30:809 BRT] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:03:30:820 BRT] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 22:03:30:821 BRT] 0000003b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 22:03:30:905 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:03:31:564 BRT] 0000003b m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 22:03:31:582 BRT] 0000003b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 22:03:31:583 BRT] 0000003b com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 22:03:31:583 BRT] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:31:586 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 22:03:31:591 BRT] 00000027 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 22:03:31:604 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,784 segundos.
+[02/06/2021 22:03:31:707 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:03:31:839 BRT] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:31:874 BRT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:03:31:895 BRT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 22:03:31:895 BRT] 0000003c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 22:03:32:015 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:03:32:306 BRT] 0000003c m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 22:03:32:329 BRT] 0000003c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 22:03:32:329 BRT] 0000003c com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 22:03:32:330 BRT] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:32:335 BRT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 22:03:32:336 BRT] 00000024 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 22:03:32:346 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,452 segundos.
+[02/06/2021 22:03:32:485 BRT] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:03:56:492 BRT] 00000023 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:56:567 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:03:56:588 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 22:03:56:600 BRT] 00000023 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 22:03:56:743 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:03:57:297 BRT] 00000023 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 22:03:57:309 BRT] 00000023 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 22:03:57:309 BRT] 00000023 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 22:03:57:310 BRT] 00000023 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:57:317 BRT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 22:03:57:317 BRT] 00000024 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 22:03:57:322 BRT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,734 segundos.
+[02/06/2021 22:03:57:455 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:03:57:647 BRT] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:57:661 BRT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:03:57:669 BRT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 22:03:57:669 BRT] 0000003c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 22:03:57:870 BRT] 00000024 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:03:58:063 BRT] 0000003c m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 22:03:58:068 BRT] 0000003c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 22:03:58:068 BRT] 0000003c com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 22:03:58:069 BRT] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:03:58:072 BRT] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 22:03:58:073 BRT] 0000003e com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 22:03:58:077 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,408 segundos.
+[02/06/2021 22:03:58:159 BRT] 0000003c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:06:27:097 BRT] 0000003b .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[02/06/2021 22:06:27:113 BRT] 0000003b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[02/06/2021 22:06:27:142 BRT] 0000003b SystemOut                                                    O test 1
+[02/06/2021 22:06:27:235 BRT] 0000003b SystemOut                                                    O test 2-1
+[02/06/2021 22:06:27:280 BRT] 0000003b SystemOut                                                    O test 2-2
+[02/06/2021 22:06:27:283 BRT] 0000003b SystemOut                                                    O test 3
+[02/06/2021 22:06:37:561 BRT] 00000029 SystemOut                                                    O test 1
+[02/06/2021 22:06:37:562 BRT] 00000029 SystemOut                                                    O test 2-1
+[02/06/2021 22:06:37:578 BRT] 00000029 SystemOut                                                    O test 2-2
+[02/06/2021 22:06:37:579 BRT] 00000029 SystemOut                                                    O test 3
+[02/06/2021 22:06:50:703 BRT] 0000003c SystemOut                                                    O test 1
+[02/06/2021 22:06:50:703 BRT] 0000003c SystemOut                                                    O test 2-1
+[02/06/2021 22:06:50:737 BRT] 0000003c SystemOut                                                    O test 2-2
+[02/06/2021 22:06:50:738 BRT] 0000003c SystemOut                                                    O test 3
+[02/06/2021 22:07:03:925 BRT] 00000026 SystemOut                                                    O test 1
+[02/06/2021 22:07:03:939 BRT] 00000026 SystemOut                                                    O test 2-1
+[02/06/2021 22:07:03:976 BRT] 00000026 SystemOut                                                    O test 2-2
+[02/06/2021 22:07:03:976 BRT] 00000026 SystemOut                                                    O test 3
+[02/06/2021 22:07:20:070 BRT] 0000003c SystemOut                                                    O test 1
+[02/06/2021 22:07:20:072 BRT] 0000003c SystemOut                                                    O test 2-1
+[02/06/2021 22:07:20:108 BRT] 0000003c SystemOut                                                    O test 2-2
+[02/06/2021 22:07:20:108 BRT] 0000003c SystemOut                                                    O test 3
+[02/06/2021 22:07:40:155 BRT] 00000024 SystemOut                                                    O test 1
+[02/06/2021 22:07:40:156 BRT] 00000024 SystemOut                                                    O test 2-1
+[02/06/2021 22:07:40:171 BRT] 00000024 SystemOut                                                    O test 2-2
+[02/06/2021 22:07:40:174 BRT] 00000024 SystemOut                                                    O test 3
+[02/06/2021 22:07:58:128 BRT] 00000023 SystemOut                                                    O test 1
+[02/06/2021 22:07:58:129 BRT] 00000023 SystemOut                                                    O test 2-1
+[02/06/2021 22:07:58:150 BRT] 00000023 SystemOut                                                    O test 2-2
+[02/06/2021 22:07:58:151 BRT] 00000023 SystemOut                                                    O test 3
+[02/06/2021 22:08:10:854 BRT] 0000003e SystemOut                                                    O test 1
+[02/06/2021 22:08:10:856 BRT] 0000003e SystemOut                                                    O test 2-1
+[02/06/2021 22:08:10:888 BRT] 0000003e SystemOut                                                    O test 2-2
+[02/06/2021 22:08:10:888 BRT] 0000003e SystemOut                                                    O test 3
+[02/06/2021 22:08:55:356 BRT] 00000029 SystemOut                                                    O test 1
+[02/06/2021 22:08:55:357 BRT] 00000029 SystemOut                                                    O test 2-1
+[02/06/2021 22:08:55:369 BRT] 00000029 SystemOut                                                    O test 2-2
+[02/06/2021 22:08:55:370 BRT] 00000029 SystemOut                                                    O test 3
+[02/06/2021 22:09:26:279 BRT] 0000003c SystemOut                                                    O test 1
+[02/06/2021 22:09:26:280 BRT] 0000003c SystemOut                                                    O test 2-1
+[02/06/2021 22:09:26:295 BRT] 0000003c SystemOut                                                    O test 2-2
+[02/06/2021 22:09:26:296 BRT] 0000003c SystemOut                                                    O test 3
+[02/06/2021 22:09:37:165 BRT] 00000027 SystemOut                                                    O test 1
+[02/06/2021 22:09:37:166 BRT] 00000027 SystemOut                                                    O test 2-1
+[02/06/2021 22:09:37:178 BRT] 00000027 SystemOut                                                    O test 2-2
+[02/06/2021 22:09:37:178 BRT] 00000027 SystemOut                                                    O test 3
+[02/06/2021 22:10:37:394 BRT] 0000003e xf.rt.frontend.jaxrs.3.2:1.0.52.cl210520210510-1231(id=143)] W javax.ws.rs.ClientErrorException: HTTP 405 Method Not Allowed
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:559)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:239)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:90)
 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
-	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
-	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
-	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.microprofile.client.Validator.throwException(Validator.java:216)
-	at org.apache.cxf.microprofile.client.Validator.checkMethodsForInvalidURITemplates(Validator.java:123)
-	at org.apache.cxf.microprofile.client.Validator.checkValid(Validator.java:63)
-	at org.apache.cxf.microprofile.client.CxfTypeSafeClientBuilder.build(CxfTypeSafeClientBuilder.java:128)
-	at org.apache.cxf.microprofile.client.cdi.RestClientBean.create(RestClientBean.java:131)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
-	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
-	at org.jboss.weld.injection.FieldInjectionPoint.inject(FieldInjectionPoint.java:92)
-	at org.jboss.weld.util.Beans.injectBoundFields(Beans.java:336)
-	at org.jboss.weld.util.Beans.injectFieldsAndInitializers(Beans.java:347)
-	at org.jboss.weld.injection.producer.ResourceInjector$1.proceed(ResourceInjector.java:69)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:323)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:320)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl.aroundInject(WebSphereInjectionServicesImpl.java:320)
-	at org.jboss.weld.injection.InjectionContextImpl.run(InjectionContextImpl.java:46)
-	at org.jboss.weld.injection.producer.ResourceInjector.inject(ResourceInjector.java:71)
-	at org.jboss.weld.injection.producer.BasicInjectionTarget.inject(BasicInjectionTarget.java:117)
-	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:161)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$ApplicationScopedContextualInstanceStrategy.get(ContextualInstanceStrategy.java:140)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:102)
-	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:131)
-	at com.hscastro.services.PaymentServiceImpl$Proxy$_$$_WeldClientProxy.getWorker(Unknown Source)
-	at com.hscastro.resources.PaymentResource.findById(PaymentResource.java:50)
-	at com.hscastro.resources.PaymentResource$Proxy$_$$_WeldClientProxy.findById(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor493.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
-	... 39 more
-
-[27/05/2021 22:47:44:897 BRT] 00000062 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] W Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@a304bf1
-org.apache.cxf.interceptor.Fault: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
-	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
-	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
-	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
-	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
-	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
-	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
-	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
-	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.microprofile.client.Validator.throwException(Validator.java:216)
-	at org.apache.cxf.microprofile.client.Validator.checkMethodsForInvalidURITemplates(Validator.java:123)
-	at org.apache.cxf.microprofile.client.Validator.checkValid(Validator.java:63)
-	at org.apache.cxf.microprofile.client.CxfTypeSafeClientBuilder.build(CxfTypeSafeClientBuilder.java:128)
-	at org.apache.cxf.microprofile.client.cdi.RestClientBean.create(RestClientBean.java:131)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
-	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
-	at org.jboss.weld.injection.FieldInjectionPoint.inject(FieldInjectionPoint.java:92)
-	at org.jboss.weld.util.Beans.injectBoundFields(Beans.java:336)
-	at org.jboss.weld.util.Beans.injectFieldsAndInitializers(Beans.java:347)
-	at org.jboss.weld.injection.producer.ResourceInjector$1.proceed(ResourceInjector.java:69)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:323)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:320)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl.aroundInject(WebSphereInjectionServicesImpl.java:320)
-	at org.jboss.weld.injection.InjectionContextImpl.run(InjectionContextImpl.java:46)
-	at org.jboss.weld.injection.producer.ResourceInjector.inject(ResourceInjector.java:71)
-	at org.jboss.weld.injection.producer.BasicInjectionTarget.inject(BasicInjectionTarget.java:117)
-	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:161)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$ApplicationScopedContextualInstanceStrategy.get(ContextualInstanceStrategy.java:140)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:102)
-	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:131)
-	at com.hscastro.services.PaymentServiceImpl$Proxy$_$$_WeldClientProxy.getWorker(Unknown Source)
-	at com.hscastro.resources.PaymentResource.findById(PaymentResource.java:50)
-	at com.hscastro.resources.PaymentResource$Proxy$_$$_WeldClientProxy.findById(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor493.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
-	... 39 more
-
-[27/05/2021 22:47:44:921 BRT] 00000062 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] E An unexpected error occurred during error handling. No further error processing will occur.
-org.apache.cxf.interceptor.Fault: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:167)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:133)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
-	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
-	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
-	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
-	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
-	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
-	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
-	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
-	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.microprofile.client.Validator.throwException(Validator.java:216)
-	at org.apache.cxf.microprofile.client.Validator.checkMethodsForInvalidURITemplates(Validator.java:123)
-	at org.apache.cxf.microprofile.client.Validator.checkValid(Validator.java:63)
-	at org.apache.cxf.microprofile.client.CxfTypeSafeClientBuilder.build(CxfTypeSafeClientBuilder.java:128)
-	at org.apache.cxf.microprofile.client.cdi.RestClientBean.create(RestClientBean.java:131)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
-	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
-	at org.jboss.weld.injection.FieldInjectionPoint.inject(FieldInjectionPoint.java:92)
-	at org.jboss.weld.util.Beans.injectBoundFields(Beans.java:336)
-	at org.jboss.weld.util.Beans.injectFieldsAndInitializers(Beans.java:347)
-	at org.jboss.weld.injection.producer.ResourceInjector$1.proceed(ResourceInjector.java:69)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:323)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:320)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl.aroundInject(WebSphereInjectionServicesImpl.java:320)
-	at org.jboss.weld.injection.InjectionContextImpl.run(InjectionContextImpl.java:46)
-	at org.jboss.weld.injection.producer.ResourceInjector.inject(ResourceInjector.java:71)
-	at org.jboss.weld.injection.producer.BasicInjectionTarget.inject(BasicInjectionTarget.java:117)
-	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:161)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$ApplicationScopedContextualInstanceStrategy.get(ContextualInstanceStrategy.java:140)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:102)
-	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:131)
-	at com.hscastro.services.PaymentServiceImpl$Proxy$_$$_WeldClientProxy.getWorker(Unknown Source)
-	at com.hscastro.resources.PaymentResource.findById(PaymentResource.java:50)
-	at com.hscastro.resources.PaymentResource$Proxy$_$$_WeldClientProxy.findById(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor493.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
-	... 39 more
-
-[27/05/2021 22:47:45:005 BRT] 00000062 com.ibm.ws.webcontainer.util.ApplicationErrorUtils           E SRVE0777E: Exceção lançada pela classe de aplicativo 'org.apache.cxf.microprofile.client.Validator.throwException:216'
-org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.microprofile.client.Validator.throwException(Validator.java:216)
-	at org.apache.cxf.microprofile.client.Validator.checkMethodsForInvalidURITemplates(Validator.java:123)
-	at org.apache.cxf.microprofile.client.Validator.checkValid(Validator.java:63)
-	at org.apache.cxf.microprofile.client.CxfTypeSafeClientBuilder.build(CxfTypeSafeClientBuilder.java:128)
-	at org.apache.cxf.microprofile.client.cdi.RestClientBean.create(RestClientBean.java:131)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
-	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
-	at org.jboss.weld.injection.FieldInjectionPoint.inject(FieldInjectionPoint.java:92)
-	at org.jboss.weld.util.Beans.injectBoundFields(Beans.java:336)
-	at org.jboss.weld.util.Beans.injectFieldsAndInitializers(Beans.java:347)
-	at org.jboss.weld.injection.producer.ResourceInjector$1.proceed(ResourceInjector.java:69)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:323)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:320)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl.aroundInject(WebSphereInjectionServicesImpl.java:320)
-	at org.jboss.weld.injection.InjectionContextImpl.run(InjectionContextImpl.java:46)
-	at org.jboss.weld.injection.producer.ResourceInjector.inject(ResourceInjector.java:71)
-	at org.jboss.weld.injection.producer.BasicInjectionTarget.inject(BasicInjectionTarget.java:117)
-	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:161)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$ApplicationScopedContextualInstanceStrategy.get(ContextualInstanceStrategy.java:140)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:102)
-	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:131)
-	at com.hscastro.services.PaymentServiceImpl$Proxy$_$$_WeldClientProxy.getWorker(Unknown Source)
-	at com.hscastro.resources.PaymentResource.findById(PaymentResource.java:50)
-	at com.hscastro.resources.PaymentResource$Proxy$_$$_WeldClientProxy.findById(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor493.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
-	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
-	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
-	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
-	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
-	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
-	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
-	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
@@ -542,109 +187,57 @@ org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client i
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
-[27/05/2021 22:47:45:323 BRT] 00000062 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Um Incidente de FFDC foi criado: "org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long) com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105" em ffdc_21.05.27_22.47.45.0.log
-[27/05/2021 22:47:45:324 BRT] 00000062 com.ibm.ws.webcontainer.webapp                               E SRVE0315E: Ocorreu uma exceção: java.lang.Throwable: org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5119)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
-	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
-	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1159)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:428)
-	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:387)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
-	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
-	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
-	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
-	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.eclipse.microprofile.rest.client.RestClientDefinitionException: The client interface, interface com.hscastro.restclient.WorkerRestClient has one or more methods with unresolved path template variables: public abstract com.hscastro.model.Worker com.hscastro.restclient.WorkerRestClient.findById(java.lang.Long)
-	at org.apache.cxf.microprofile.client.Validator.throwException(Validator.java:216)
-	at org.apache.cxf.microprofile.client.Validator.checkMethodsForInvalidURITemplates(Validator.java:123)
-	at org.apache.cxf.microprofile.client.Validator.checkValid(Validator.java:63)
-	at org.apache.cxf.microprofile.client.CxfTypeSafeClientBuilder.build(CxfTypeSafeClientBuilder.java:128)
-	at org.apache.cxf.microprofile.client.cdi.RestClientBean.create(RestClientBean.java:131)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
-	at org.jboss.weld.manager.BeanManagerImpl.getInjectableReference(BeanManagerImpl.java:794)
-	at org.jboss.weld.injection.FieldInjectionPoint.inject(FieldInjectionPoint.java:92)
-	at org.jboss.weld.util.Beans.injectBoundFields(Beans.java:336)
-	at org.jboss.weld.util.Beans.injectFieldsAndInitializers(Beans.java:347)
-	at org.jboss.weld.injection.producer.ResourceInjector$1.proceed(ResourceInjector.java:69)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:323)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl$3.run(WebSphereInjectionServicesImpl.java:320)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.ibm.ws.cdi.impl.weld.injection.WebSphereInjectionServicesImpl.aroundInject(WebSphereInjectionServicesImpl.java:320)
-	at org.jboss.weld.injection.InjectionContextImpl.run(InjectionContextImpl.java:46)
-	at org.jboss.weld.injection.producer.ResourceInjector.inject(ResourceInjector.java:71)
-	at org.jboss.weld.injection.producer.BasicInjectionTarget.inject(BasicInjectionTarget.java:117)
-	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:161)
-	at org.jboss.weld.contexts.AbstractContext.get(AbstractContext.java:96)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
-	at org.jboss.weld.bean.ContextualInstanceStrategy$ApplicationScopedContextualInstanceStrategy.get(ContextualInstanceStrategy.java:140)
-	at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
-	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:102)
-	at org.jboss.weld.bean.proxy.ProxyMethodHandler.getInstance(ProxyMethodHandler.java:131)
-	at com.hscastro.services.PaymentServiceImpl$Proxy$_$$_WeldClientProxy.getWorker(Unknown Source)
-	at com.hscastro.resources.PaymentResource.findById(PaymentResource.java:50)
-	at com.hscastro.resources.PaymentResource$Proxy$_$$_WeldClientProxy.findById(Unknown Source)
-	at jdk.internal.reflect.GeneratedMethodAccessor493.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.ibm.ws.jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer.serviceInvoke(JaxRsFactoryImplicitBeanCDICustomizer.java:342)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:641)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
-	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:101)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:213)
-	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
-	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:112)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
-	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
-	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
-	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
-	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:274)
-	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
-	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
-	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
-	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1227)
-	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5061)
-	... 20 more
-
-[27/05/2021 22:48:51:996 BRT] 00000060 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:48:52:001 BRT] 00000060 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
-[27/05/2021 22:48:52:040 BRT] 00000060 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:48:52:051 BRT] 00000060 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
-[27/05/2021 22:48:52:057 BRT] 00000060 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
-[27/05/2021 22:48:52:070 BRT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:48:52:628 BRT] 00000060 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
-[27/05/2021 22:48:52:642 BRT] 00000060 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
-[27/05/2021 22:48:52:642 BRT] 00000060 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
-[27/05/2021 22:48:52:642 BRT] 00000060 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:48:52:652 BRT] 00000062 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
-[27/05/2021 22:48:52:653 BRT] 00000062 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
-[27/05/2021 22:48:52:664 BRT] 00000060 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,613 segundos.
-[27/05/2021 22:48:52:749 BRT] 0000006b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[27/05/2021 22:48:58:803 BRT] 00000062 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
-[27/05/2021 22:48:58:817 BRT] 00000062 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
-[27/05/2021 22:50:19:830 BRT] 00000012 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: O servidor defaultServer está parando porque a JVM está saindo.
-[27/05/2021 22:50:19:839 BRT] 00000071 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Aguardando até 30 segundos para o servidor ser colocado em modo quiesce.
-[27/05/2021 22:50:19:862 BRT] 00000025 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint interrompeu o atendimento das solicitações no host *  (IPv6) porta 9080.
-[27/05/2021 22:50:19:864 BRT] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
-[27/05/2021 22:50:20:324 BRT] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Encerramento do servidor solicitado em quinta-feira, 27 de maio de 2021 às 22:50. O servidor defaultServer está sendo encerrado.
-[27/05/2021 22:50:20:868 BRT] 00000071 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Colocação em modo quiesce do servidor concluída.
-[27/05/2021 22:50:20:944 BRT] 00000062 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
-[27/05/2021 22:50:21:880 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: O servidor defaultServer foi interrompido depois de 10 minutos, 8,526 segundos.
+[02/06/2021 22:10:47:038 BRT] 00000027 SystemOut                                                    O test 1
+[02/06/2021 22:10:47:039 BRT] 00000027 SystemOut                                                    O test 2-1
+[02/06/2021 22:10:47:078 BRT] 00000027 SystemOut                                                    O test 2-2
+[02/06/2021 22:10:47:079 BRT] 00000027 SystemOut                                                    O test 3
+[02/06/2021 22:11:34:013 BRT] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:11:34:016 BRT] 0000003b com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Destruição bem sucedida.
+[02/06/2021 22:11:34:057 BRT] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:11:34:076 BRT] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 22:11:34:079 BRT] 0000003b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 22:11:34:146 BRT] 0000003c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:11:34:616 BRT] 0000003b m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 22:11:34:622 BRT] 0000003b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 22:11:34:622 BRT] 0000003b com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 22:11:34:622 BRT] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:11:34:625 BRT] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 22:11:34:628 BRT] 0000003e com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 22:11:34:635 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,559 segundos.
+[02/06/2021 22:11:34:724 BRT] 0000003b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:12:39:329 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:12:39:365 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:12:39:381 BRT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 22:12:39:381 BRT] 00000024 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 22:12:39:527 BRT] 00000057 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:12:40:012 BRT] 00000024 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 22:12:40:018 BRT] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 22:12:40:018 BRT] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 22:12:40:019 BRT] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:12:40:021 BRT] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 22:12:40:022 BRT] 00000027 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 22:12:40:028 BRT] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,647 segundos.
+[02/06/2021 22:12:40:163 BRT] 00000057 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:12:40:383 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:12:40:418 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:12:40:443 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo rh-payroll.
+[02/06/2021 22:12:40:446 BRT] 0000003e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo rh-payroll está usando a definição de aplicativo indefinido no local /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/apps/rh-payroll.war.xml.
+[02/06/2021 22:12:40:487 BRT] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:12:40:849 BRT] 0000003e m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: As interfaces a seguir foram configuradas como RequestScoped, o que resultará em desempenho mais lento:  Considere usar ApplicationScoped para obter melhor desempenho.
+[02/06/2021 22:12:40:855 BRT] 0000003e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: rh-payroll.
+[02/06/2021 22:12:40:856 BRT] 0000003e com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web rh-payroll foi ligado ao default_host.
+[02/06/2021 22:12:40:856 BRT] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:12:40:858 BRT] 00000059 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/rh-payroll
+[02/06/2021 22:12:40:859 BRT] 00000059 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[02/06/2021 22:12:40:869 BRT] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo rh-payroll foi atualizado em 0,426 segundos.
+[02/06/2021 22:12:40:987 BRT] 00000057 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/halyson/eclipse-workspace-ee/microprofile-example/rh-payroll/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[02/06/2021 22:12:53:214 BRT] 00000057 .apache.cxf.cxf.core.3.2:1.0.52.cl210520210510-1231(id=137)] I Setting the server's publish address to be /
+[02/06/2021 22:12:53:226 BRT] 00000057 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rh-payroll] [/rh-payroll] [com.hscastro.WorkerApplication]: Inicialização bem sucedida.
+[02/06/2021 22:13:59:397 BRT] 00000012 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: O servidor defaultServer está parando porque a JVM está saindo.
+[02/06/2021 22:13:59:443 BRT] 00000067 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Aguardando até 30 segundos para o servidor ser colocado em modo quiesce.
+[02/06/2021 22:13:59:484 BRT] 00000027 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: O Canal TCP defaultHttpEndpoint interrompeu o atendimento das solicitações no host *  (IPv6) porta 9080.
+[02/06/2021 22:13:59:487 BRT] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.185:9080/rh-payroll/
+[02/06/2021 22:14:00:206 BRT] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Encerramento do servidor solicitado em quarta-feira, 2 de junho de 2021 às 22:14. O servidor defaultServer está sendo encerrado.
+[02/06/2021 22:14:00:508 BRT] 00000067 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Colocação em modo quiesce do servidor concluída.
+[02/06/2021 22:14:00:665 BRT] 00000057 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo rh-payroll foi interrompido com sucesso.
+[02/06/2021 22:14:02:564 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: O servidor defaultServer foi interrompido depois de 16 minutos, 42,591 segundos.

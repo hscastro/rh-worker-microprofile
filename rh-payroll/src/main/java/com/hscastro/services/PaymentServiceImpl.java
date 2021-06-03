@@ -19,13 +19,10 @@ public class PaymentServiceImpl implements PaymentService {
 	private WorkerRestClient workerRestClient;
 		
 	
-	public Payment getPayment(Long workerId, Integer days) {
-		System.out.println("test 2-1");
+	public Payment getPayment(Long workerId, Integer days) {		
 		@SuppressWarnings("unused")
 		Worker worker = workerRestClient.findById(workerId);		
-		System.out.println("test 2-2");
-		return new Payment("Bob", 200.00, days);
-		//return new Payment(worker.getName(), worker.getDayleIncome(), days);
+		return new Payment(worker.getName(), worker.getDayleIncome(), days);
 	}
 
 	@Override

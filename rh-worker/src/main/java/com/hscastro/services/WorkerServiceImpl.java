@@ -43,8 +43,7 @@ public class WorkerServiceImpl implements WorkerService {
 	@Override
 	public Worker findById(Long id) {		
 		Long entityID = 0L;
-		System.out.println("CAIXA ALTA - 0");
-		
+				
 		for (int i = 0; i < list.size(); i++) {
 			Worker worker = list.get(i);
 			 entityID = worker.getId().longValue();			 		 
